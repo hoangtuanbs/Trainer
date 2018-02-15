@@ -1,0 +1,1718 @@
+// !$*UTF8*$!
+{
+	0D0BFEC90F2491A700228849 /* MainView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {947, 2464}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{302, 962}";
+		};
+	};
+	0D0BFECA0F2491A700228849 /* MainView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1128, 4928}}";
+			sepNavSelRange = "{1629, 6}";
+			sepNavVisRange = "{10586, 1150}";
+		};
+	};
+	0D87C6420EE3D77D0015B241 /* Constants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {937, 448}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 841}";
+		};
+	};
+	0D8879220F436BC60036B644 /* ClockItem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {864, 1708}}";
+			sepNavSelRange = "{697, 0}";
+			sepNavVisRange = "{0, 1398}";
+		};
+	};
+	0D8879230F436BC60036B644 /* InternetFileManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 924}}";
+			sepNavSelRange = "{872, 0}";
+			sepNavVisRange = "{0, 990}";
+		};
+	};
+	0D8879240F436BC60036B644 /* InternetFileManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 3668}}";
+			sepNavSelRange = "{6880, 0}";
+			sepNavVisRange = "{6245, 965}";
+			sepNavWindowFrame = "{{19, -5}, {1171, 778}}";
+		};
+	};
+	0D8879250F436BC60036B644 /* MainView */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {926, 3472}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 920}";
+		};
+	};
+	0D8879260F436BC60036B644 /* MediaItem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 1036}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 976}";
+		};
+	};
+	0D8879270F436BC60036B644 /* MediaItem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1002, 2268}}";
+			sepNavSelRange = "{938, 0}";
+			sepNavVisRange = "{1, 1857}";
+		};
+	};
+	0D8879280F436BC60036B644 /* PlayList.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {937, 445}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 515}";
+		};
+	};
+	0D8879290F436BC60036B644 /* PlayList.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 449}}";
+			sepNavSelRange = "{229, 0}";
+			sepNavVisRange = "{0, 394}";
+		};
+	};
+	0D88792C0F436BC60036B644 /* XMLReader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 490}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1, 1328}";
+		};
+	};
+	0D88792D0F436BC60036B644 /* XMLReader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1134, 2954}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{546, 1169}";
+		};
+	};
+	0D8879360F436BE50036B644 /* Playback.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 630}}";
+			sepNavSelRange = "{247, 0}";
+			sepNavVisRange = "{0, 786}";
+		};
+	};
+	0DF672120EDE8ED30035A73A /* Entitlements.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{19, -5}, {1171, 778}}";
+		};
+	};
+	1D3623240D0F684500981E51 /* HitMusicAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {888, 1946}}";
+			sepNavSelRange = "{1004, 8}";
+			sepNavVisRange = "{360, 1749}";
+			sepNavWindowFrame = "{{94, -1}, {1171, 778}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* HitMusicAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1032, 14924}}";
+			sepNavSelRange = "{10852, 0}";
+			sepNavVisRange = "{38341, 2303}";
+			sepNavWindowFrame = "{{425, 2}, {627, 776}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* HitMusic */ = {
+		activeExec = 0;
+		executables = (
+			6E4093070FD3AD10005CA92B /* HitMusic */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6E4093070FD3AD10005CA92B /* HitMusic */;
+		activeSDKPreference = iphonesimulator3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* HitMusic */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* HitMusic */,
+		);
+		breakpoints = (
+			6E4094300FD3BB99005CA92B /* HitMusicAppDelegate.m:953 */,
+			6E4094D60FD3C60F005CA92B /* InternetFileManager.m:66 */,
+			6E4094EF0FD3C639005CA92B /* InternetFileManager.m:24 */,
+			6E4094F80FD3C6AC005CA92B /* InternetFileManager.m:51 */,
+			6E4094FA0FD3C6B0005CA92B /* InternetFileManager.m:112 */,
+			6E4094FC0FD3C6B3005CA92B /* InternetFileManager.m:135 */,
+			6E4094FE0FD3C6B4005CA92B /* InternetFileManager.m:152 */,
+			6E4095000FD3C6B6005CA92B /* InternetFileManager.m:173 */,
+			6E4095020FD3C6BD005CA92B /* InternetFileManager.m:196 */,
+			6E4095040FD3C6C0005CA92B /* InternetFileManager.m:208 */,
+			6E4095060FD3C6C3005CA92B /* InternetFileManager.m:231 */,
+			6E4095C50FD3D0F1005CA92B /* HitMusicAppDelegate.m:257 */,
+			6E4095C70FD3D0F5005CA92B /* HitMusicAppDelegate.m:267 */,
+			6E4095D30FD3D136005CA92B /* HitMusicAppDelegate.m:291 */,
+			6E40962D0FD3D8C2005CA92B /* HitMusicAppDelegate.m:873 */,
+			6E4097200FD3E4C8005CA92B /* APAudioPlayer.m:301 */,
+			6E4097BA0FD3F057005CA92B /* APAudioPlayer.m:179 */,
+			6E54F54A0FD5A60D0082C66B /* APAudioPlayer.m:231 */,
+			6E54F54C0FD5A6260082C66B /* APAudioPlayer.m:156 */,
+			6E54F5540FD5A6380082C66B /* APAudioPlayer.m:228 */,
+			6E54F5620FD5A66F0082C66B /* APAudioPlayer.m:156 */,
+			6E54F5640FD5A6700082C66B /* APAudioPlayer.m:156 */,
+			6E54F5890FD5A7A30082C66B /* APCustomPlayer.m:114 */,
+			6E54F58B0FD5A7A50082C66B /* APCustomPlayer.m:117 */,
+			6E713CF70FD906B20041B660 /* APCustomPlayer.m:113 */,
+			6E713D0F0FD9081F0041B660 /* APAudioPlayer.m:429 */,
+			6E713D4E0FD90B4B0041B660 /* APCustomPlayer.m:132 */,
+			6E713D8E0FD90DC70041B660 /* APCustomPlayer.m:265 */,
+			6E713DBB0FD91D820041B660 /* APCustomPlayer.m:97 */,
+			6E713DFD0FD91EF60041B660 /* APAudioPlayer.m:25 */,
+			6E86465A0FD98DAC00D5A816 /* APAudioPlayer.m:428 */,
+			6E86473B0FD9961F00D5A816 /* HitMusicAppDelegate.m:995 */,
+			6E8647580FD997B500D5A816 /* HitMusicAppDelegate.m:957 */,
+			6EC0BE1E0FDD3E6D0037E9BC /* APAudioPlayer.m:59 */,
+			6EC0BE6D0FDD41D30037E9BC /* APAudioPlayer.m:156 */,
+			6EC0BE740FDD441E0037E9BC /* APAudioPlayer.m:128 */,
+			6EC0BE830FDD44DF0037E9BC /* APAudioPlayer.m:148 */,
+			6EC0BE900FDD45020037E9BC /* APAudioPlayer.m:198 */,
+			6EC0BE920FDD45030037E9BC /* APAudioPlayer.m:201 */,
+		);
+		codeSenseManager = 6E4093540FD3AD40005CA92B /* Code sense */;
+		executables = (
+			6E4093070FD3AD10005CA92B /* HitMusic */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					607,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					609,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					746,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 266219798;
+			PBXWorkspaceStateSaveDate = 266219798;
+		};
+		perUserProjectItems = {
+			6E4093B20FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093B20FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093B60FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093B60FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093BD0FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093BD0FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093C00FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093C00FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093C20FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093C20FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093C30FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093C30FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093C40FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093C40FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093C60FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093C60FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093C70FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093C70FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093CC0FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093CC0FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093CD0FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093CD0FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093CE0FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093CE0FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093D00FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093D00FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093D10FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093D10FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093D30FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093D30FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093D40FD3B5D2005CA92B /* PBXTextBookmark */ = 6E4093D40FD3B5D2005CA92B /* PBXTextBookmark */;
+			6E4093E90FD3B68E005CA92B /* PBXTextBookmark */ = 6E4093E90FD3B68E005CA92B /* PBXTextBookmark */;
+			6E4094DD0FD3C617005CA92B /* PBXTextBookmark */ = 6E4094DD0FD3C617005CA92B /* PBXTextBookmark */;
+			6E4094E20FD3C617005CA92B /* PBXTextBookmark */ = 6E4094E20FD3C617005CA92B /* PBXTextBookmark */;
+			6E4095980FD3CFA5005CA92B /* PBXTextBookmark */ = 6E4095980FD3CFA5005CA92B /* PBXTextBookmark */;
+			6E4095BB0FD3D049005CA92B /* PBXTextBookmark */ = 6E4095BB0FD3D049005CA92B /* PBXTextBookmark */;
+			6E40963C0FD3D969005CA92B /* PBXTextBookmark */ = 6E40963C0FD3D969005CA92B /* PBXTextBookmark */;
+			6E4096EC0FD3E31C005CA92B /* PBXTextBookmark */ = 6E4096EC0FD3E31C005CA92B /* PBXTextBookmark */;
+			6E4096F90FD3E31C005CA92B /* PBXTextBookmark */ = 6E4096F90FD3E31C005CA92B /* PBXTextBookmark */;
+			6E489DB00FD3FB1600D31610 /* PBXTextBookmark */ = 6E489DB00FD3FB1600D31610 /* PBXTextBookmark */;
+			6E489DB10FD3FB1600D31610 /* PlistBookmark */ = 6E489DB10FD3FB1600D31610 /* PlistBookmark */;
+			6E4F1C220FDD09FD002860F5 /* PBXTextBookmark */ = 6E4F1C220FDD09FD002860F5 /* PBXTextBookmark */;
+			6E5156E30FD44E4E000B2935 /* PBXTextBookmark */ = 6E5156E30FD44E4E000B2935 /* PBXTextBookmark */;
+			6E5156E80FD44E4E000B2935 /* PBXTextBookmark */ = 6E5156E80FD44E4E000B2935 /* PBXTextBookmark */;
+			6E54F53A0FD5A55D0082C66B /* PlistBookmark */ = 6E54F53A0FD5A55D0082C66B /* PlistBookmark */;
+			6E5683100FDE31920000798D /* PBXTextBookmark */ = 6E5683100FDE31920000798D /* PBXTextBookmark */;
+			6E5683130FDE31920000798D /* PBXTextBookmark */ = 6E5683130FDE31920000798D /* PBXTextBookmark */;
+			6E5683140FDE31920000798D /* PBXTextBookmark */ = 6E5683140FDE31920000798D /* PBXTextBookmark */;
+			6E65DD6F0FD5CB6C00C0FA4B /* PBXTextBookmark */ = 6E65DD6F0FD5CB6C00C0FA4B /* PBXTextBookmark */;
+			6E65DD760FD5CB6C00C0FA4B /* PBXTextBookmark */ = 6E65DD760FD5CB6C00C0FA4B /* PBXTextBookmark */;
+			6E713CE30FD903780041B660 /* PBXTextBookmark */ = 6E713CE30FD903780041B660 /* PBXTextBookmark */;
+			6E713E970FD92C420041B660 /* PBXTextBookmark */ = 6E713E970FD92C420041B660 /* PBXTextBookmark */;
+			6E713E980FD92C420041B660 /* PBXTextBookmark */ = 6E713E980FD92C420041B660 /* PBXTextBookmark */;
+			6E731D150FD50B80008B0AD7 /* PBXBookmark */ = 6E731D150FD50B80008B0AD7 /* PBXBookmark */;
+			6E731D320FD50E56008B0AD7 /* PlistBookmark */ = 6E731D320FD50E56008B0AD7 /* PlistBookmark */;
+			6E86462C0FD98CA300D5A816 /* PBXTextBookmark */ = 6E86462C0FD98CA300D5A816 /* PBXTextBookmark */;
+			6E8646E80FD993A800D5A816 /* PBXTextBookmark */ = 6E8646E80FD993A800D5A816 /* PBXTextBookmark */;
+			6E8646E90FD993A800D5A816 /* PBXTextBookmark */ = 6E8646E90FD993A800D5A816 /* PBXTextBookmark */;
+			6E8646ED0FD993A800D5A816 /* PBXTextBookmark */ = 6E8646ED0FD993A800D5A816 /* PBXTextBookmark */;
+			6E8647490FD996EB00D5A816 /* PBXTextBookmark */ = 6E8647490FD996EB00D5A816 /* PBXTextBookmark */;
+			6E8647F50FD99F0B00D5A816 /* PBXTextBookmark */ = 6E8647F50FD99F0B00D5A816 /* PBXTextBookmark */;
+			6E8648180FD9A1A200D5A816 /* PBXTextBookmark */ = 6E8648180FD9A1A200D5A816 /* PBXTextBookmark */;
+			6E8648420FD9A30700D5A816 /* PBXTextBookmark */ = 6E8648420FD9A30700D5A816 /* PBXTextBookmark */;
+			6EA4117F0FD5373E009F9ED0 /* PBXTextBookmark */ = 6EA4117F0FD5373E009F9ED0 /* PBXTextBookmark */;
+			6EA411840FD5373E009F9ED0 /* PBXTextBookmark */ = 6EA411840FD5373E009F9ED0 /* PBXTextBookmark */;
+			6EBA26F40FD546720082E9BC /* PBXTextBookmark */ = 6EBA26F40FD546720082E9BC /* PBXTextBookmark */;
+			6EC0BE5E0FDD41910037E9BC /* PBXTextBookmark */ = 6EC0BE5E0FDD41910037E9BC /* PBXTextBookmark */;
+			6EC0BE860FDD44E30037E9BC /* PBXTextBookmark */ = 6EC0BE860FDD44E30037E9BC /* PBXTextBookmark */;
+			6EC0BEA30FDD455B0037E9BC /* PBXTextBookmark */ = 6EC0BEA30FDD455B0037E9BC /* PBXTextBookmark */;
+			6EC0BEA40FDD455B0037E9BC /* PBXTextBookmark */ = 6EC0BEA40FDD455B0037E9BC /* PBXTextBookmark */;
+			6EC0BEB00FDD45AE0037E9BC /* PBXTextBookmark */ = 6EC0BEB00FDD45AE0037E9BC /* PBXTextBookmark */;
+			6ED1F8D60FD516E7005A9C48 /* PBXBookmark */ = 6ED1F8D60FD516E7005A9C48 /* PBXBookmark */;
+			6ED1F8D70FD516E7005A9C48 /* PBXBookmark */ = 6ED1F8D70FD516E7005A9C48 /* PBXBookmark */;
+			6ED1F8DC0FD516E7005A9C48 /* PBXBookmark */ = 6ED1F8DC0FD516E7005A9C48 /* PBXBookmark */;
+			6ED1F9060FD517FF005A9C48 /* PlistBookmark */ = 6ED1F9060FD517FF005A9C48 /* PlistBookmark */;
+			6ED1F9070FD517FF005A9C48 /* PBXBookmark */ = 6ED1F9070FD517FF005A9C48 /* PBXBookmark */;
+			6ED1F9090FD517FF005A9C48 /* PBXBookmark */ = 6ED1F9090FD517FF005A9C48 /* PBXBookmark */;
+			6EE1D4B10FDD4BA40046453B /* PBXTextBookmark */ = 6EE1D4B10FDD4BA40046453B /* PBXTextBookmark */;
+			6EE1D4B40FDD4BA40046453B /* PBXTextBookmark */ = 6EE1D4B40FDD4BA40046453B /* PBXTextBookmark */;
+			6EE1D4B50FDD4BA40046453B /* PBXTextBookmark */ = 6EE1D4B50FDD4BA40046453B /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6E4093530FD3AD40005CA92B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {897, 472}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 354}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* HitMusic_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 472}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 185}";
+		};
+	};
+	6E4093070FD3AD10005CA92B /* HitMusic */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HitMusic;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	6E4093530FD3AD40005CA92B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6E4093540FD3AD40005CA92B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6E4093600FD3AD63005CA92B /* APCustomPlayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 560}}";
+			sepNavSelRange = "{234, 0}";
+			sepNavVisRange = "{137, 874}";
+			sepNavWindowFrame = "{{19, -4}, {1171, 778}}";
+		};
+	};
+	6E4093610FD3AD63005CA92B /* APCustomPlayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {900, 3850}}";
+			sepNavSelRange = "{8679, 0}";
+			sepNavVisRange = "{140, 1292}";
+			sepNavWindowFrame = "{{19, -5}, {1171, 778}}";
+		};
+	};
+	6E4093620FD3AD63005CA92B /* APAudioPlayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 1008}}";
+			sepNavSelRange = "{637, 0}";
+			sepNavVisRange = "{140, 806}";
+			sepNavWindowFrame = "{{101, -4}, {1171, 778}}";
+		};
+	};
+	6E4093630FD3AD63005CA92B /* APAudioPlayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 6608}}";
+			sepNavSelRange = "{5591, 0}";
+			sepNavVisRange = "{5198, 1069}";
+			sepNavWindowFrame = "{{44, -22}, {1171, 778}}";
+		};
+	};
+	6E4093B20FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D87C6420EE3D77D0015B241 /* Constants.h */;
+		name = "Constants.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 841;
+		vrLoc = 0;
+	};
+	6E4093B60FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879280F436BC60036B644 /* PlayList.h */;
+		name = "PlayList.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6E4093BD0FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E4093600FD3AD63005CA92B /* APCustomPlayer.h */;
+		name = "APCustomPlayer.h: 10";
+		rLen = 38;
+		rLoc = 175;
+		rType = 0;
+		vrLen = 470;
+		vrLoc = 175;
+	};
+	6E4093C00FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E4093610FD3AD63005CA92B /* APCustomPlayer.m */;
+		name = "APCustomPlayer.m: 30";
+		rLen = 20;
+		rLoc = 1249;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 1013;
+	};
+	6E4093C20FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E4093620FD3AD63005CA92B /* APAudioPlayer.h */;
+		name = "APAudioPlayer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 494;
+		vrLoc = 3;
+	};
+	6E4093C30FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		name = "APAudioPlayer.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1825;
+		vrLoc = 2519;
+	};
+	6E4093C40FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* HitMusicAppDelegate.m */;
+		name = "HitMusicAppDelegate.m: 528";
+		rLen = 0;
+		rLoc = 20553;
+		rType = 0;
+		vrLen = 1326;
+		vrLoc = 19724;
+	};
+	6E4093C60FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D87C6420EE3D77D0015B241 /* Constants.h */;
+		name = "Constants.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 841;
+		vrLoc = 0;
+	};
+	6E4093C70FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* HitMusicAppDelegate.h */;
+		name = "HitMusicAppDelegate.h: 17";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1704;
+		vrLoc = 281;
+	};
+	6E4093CC0FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879360F436BE50036B644 /* Playback.h */;
+		name = "Playback.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 745;
+		vrLoc = 0;
+	};
+	6E4093CD0FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879260F436BC60036B644 /* MediaItem.h */;
+		name = "MediaItem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 863;
+		vrLoc = 0;
+	};
+	6E4093CE0FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879270F436BC60036B644 /* MediaItem.m */;
+		name = "MediaItem.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1801;
+		vrLoc = 0;
+	};
+	6E4093D00FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D0BFECA0F2491A700228849 /* MainView.m */;
+		name = "MainView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 2179;
+	};
+	6E4093D10FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D0BFEC90F2491A700228849 /* MainView.h */;
+		name = "MainView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 897;
+		vrLoc = 216;
+	};
+	6E4093D30FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879280F436BC60036B644 /* PlayList.h */;
+		name = "PlayList.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	6E4093D40FD3B5D2005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879290F436BC60036B644 /* PlayList.m */;
+		name = "PlayList.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 394;
+		vrLoc = 0;
+	};
+	6E4093E90FD3B68E005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D88792D0F436BC60036B644 /* XMLReader.m */;
+		name = "XMLReader.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1534;
+		vrLoc = 2360;
+	};
+	6E4094300FD3BB99005CA92B /* HitMusicAppDelegate.m:953 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* HitMusicAppDelegate.m */;
+		functionName = "-initPlayer";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 953;
+		location = HitMusic;
+		modificationTime = 266159453.810586;
+		state = 2;
+	};
+	6E4094D60FD3C60F005CA92B /* InternetFileManager.m:66 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0D8879240F436BC60036B644 /* InternetFileManager.m */;
+		functionName = "-downLoadFiles";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 66;
+		location = HitMusic;
+		modificationTime = 266159453.810708;
+		state = 2;
+	};
+	6E4094DD0FD3C617005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879240F436BC60036B644 /* InternetFileManager.m */;
+		name = "InternetFileManager.m: 67";
+		rLen = 41;
+		rLoc = 1898;
+		rType = 0;
+		vrLen = 1261;
+		vrLoc = 1278;
+	};
+	6E4094E20FD3C617005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879230F436BC60036B644 /* InternetFileManager.h */;
+		name = "InternetFileManager.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 990;
+		vrLoc = 0;
+	};
+	6E4094EF0FD3C639005CA92B /* InternetFileManager.m:24 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0D8879240F436BC60036B644 /* InternetFileManager.m */;
+		functionName = "-initWithPath:withUrl:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 24;
+		location = HitMusic;
+		modificationTime = 266159453.810732;
+		state = 2;
+	};
+	6E4094F80FD3C6AC005CA92B /* InternetFileManager.m:51 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0D8879240F436BC60036B644 /* InternetFileManager.m */;
+		functionName = "-startDownload";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 51;
+		location = HitMusic;
+		modificationTime = 266159453.8107511;
+		state = 2;
+	};
+	6E4094FA0FD3C6B0005CA92B /* InternetFileManager.m:112 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0D8879240F436BC60036B644 /* InternetFileManager.m */;
+		functionName = "-downloadNextFileIfAny";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 112;
+		location = HitMusic;
+		modificationTime = 266159453.810769;
+		state = 2;
+	};
+	6E4094FC0FD3C6B3005CA92B /* InternetFileManager.m:135 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0D8879240F436BC60036B644 /* InternetFileManager.m */;
+		functionName = "-getReadyItem";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 135;
+		location = HitMusic;
+		modificationTime = 266159455.204861;
+		state = 1;
+	};
+	6E4094FE0FD3C6B4005CA92B /* InternetFileManager.m:152 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0D8879240F436BC60036B644 /* InternetFileManager.m */;
+		functionName = "-addToQueue:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 152;
+		location = HitMusic;
+		modificationTime = 266159453.810809;
+		state = 2;
+	};
+	6E4095000FD3C6B6005CA92B /* InternetFileManager.m:173 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0D8879240F436BC60036B644 /* InternetFileManager.m */;
+		functionName = "-isFileAlreadyInQueue:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 173;
+		location = HitMusic;
+		modificationTime = 266159453.810835;
+		state = 2;
+	};
+	6E4095020FD3C6BD005CA92B /* InternetFileManager.m:196 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0D8879240F436BC60036B644 /* InternetFileManager.m */;
+		functionName = "-connection:didFailWithError:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 196;
+		location = HitMusic;
+		modificationTime = 266159453.810862;
+		state = 2;
+	};
+	6E4095040FD3C6C0005CA92B /* InternetFileManager.m:208 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0D8879240F436BC60036B644 /* InternetFileManager.m */;
+		functionName = "-connectionDidFinishLoading:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 208;
+		location = HitMusic;
+		modificationTime = 266159453.810879;
+		state = 2;
+	};
+	6E4095060FD3C6C3005CA92B /* InternetFileManager.m:231 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0D8879240F436BC60036B644 /* InternetFileManager.m */;
+		functionName = "-deleteFile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 231;
+		location = HitMusic;
+		modificationTime = 266159453.810898;
+		state = 2;
+	};
+	6E4095980FD3CFA5005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* HitMusic_Prefix.pch */;
+		name = "HitMusic_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 185;
+		vrLoc = 0;
+	};
+	6E4095BB0FD3D049005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D0BFEC90F2491A700228849 /* MainView.h */;
+		name = "MainView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 962;
+		vrLoc = 302;
+	};
+	6E4095C50FD3D0F1005CA92B /* HitMusicAppDelegate.m:257 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* HitMusicAppDelegate.m */;
+		functionName = "-naturalEndOfSong";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 257;
+		location = HitMusic;
+		modificationTime = 266159453.8109201;
+		state = 2;
+	};
+	6E4095C70FD3D0F5005CA92B /* HitMusicAppDelegate.m:267 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* HitMusicAppDelegate.m */;
+		functionName = "-playNextSong";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 267;
+		location = HitMusic;
+		modificationTime = 266159453.811009;
+		state = 2;
+	};
+	6E4095D30FD3D136005CA92B /* HitMusicAppDelegate.m:291 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* HitMusicAppDelegate.m */;
+		functionName = "-playSong";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 291;
+		location = HitMusic;
+		modificationTime = 266159453.811105;
+		state = 2;
+	};
+	6E40962D0FD3D8C2005CA92B /* HitMusicAppDelegate.m:873 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* HitMusicAppDelegate.m */;
+		functionName = "-markReadyDownload:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 873;
+		location = HitMusic;
+		modificationTime = 266159453.811189;
+		state = 2;
+	};
+	6E40963C0FD3D969005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879270F436BC60036B644 /* MediaItem.m */;
+		name = "MediaItem.m: 18";
+		rLen = 0;
+		rLoc = 938;
+		rType = 0;
+		vrLen = 1857;
+		vrLoc = 1;
+	};
+	6E4096EC0FD3E31C005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E4096ED0FD3E31C005CA92B /* NSRange.h */;
+		name = "NSRange.h: 20";
+		rLen = 0;
+		rLoc = 383;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 0;
+	};
+	6E4096ED0FD3E31C005CA92B /* NSRange.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSRange.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h;
+		sourceTree = "<absolute>";
+	};
+	6E4096F90FD3E31C005CA92B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E4096FA0FD3E31C005CA92B /* NSRange.h */;
+		name = "NSRange.h: 20";
+		rLen = 0;
+		rLoc = 383;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 0;
+	};
+	6E4096FA0FD3E31C005CA92B /* NSRange.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSRange.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h;
+		sourceTree = "<absolute>";
+	};
+	6E4097200FD3E4C8005CA92B /* APAudioPlayer.m:301 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-skipForward";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 301;
+		location = HitMusic;
+		modificationTime = 266159453.811271;
+		state = 2;
+	};
+	6E4097BA0FD3F057005CA92B /* APAudioPlayer.m:179 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-play";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 179;
+		location = HitMusic;
+		modificationTime = 266159453.811299;
+		state = 2;
+	};
+	6E489DB00FD3FB1600D31610 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 354;
+		vrLoc = 0;
+	};
+	6E489DB10FD3FB1600D31610 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tuanvu/Library/Mail Downloads/Archive-1/HitMusicCached2Current/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6E4F1C220FDD09FD002860F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879240F436BC60036B644 /* InternetFileManager.m */;
+		name = "InternetFileManager.m: 186";
+		rLen = 0;
+		rLoc = 6880;
+		rType = 0;
+		vrLen = 965;
+		vrLoc = 6245;
+	};
+	6E5156E30FD44E4E000B2935 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879250F436BC60036B644 /* MainView */;
+		name = "MainView: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 920;
+		vrLoc = 0;
+	};
+	6E5156E80FD44E4E000B2935 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879250F436BC60036B644 /* MainView */;
+		name = "MainView: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 920;
+		vrLoc = 0;
+	};
+	6E54F53A0FD5A55D0082C66B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 0DF672120EDE8ED30035A73A /* Entitlements.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			"get-task-allow",
+		);
+		name = "/Users/tuanvu/Library/Mail Downloads/Archive-1/HitMusicCached2Current/Entitlements.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6E54F54A0FD5A60D0082C66B /* APAudioPlayer.m:231 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-stop";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 231;
+		location = HitMusic;
+		modificationTime = 266159453.811318;
+		state = 2;
+	};
+	6E54F54C0FD5A6260082C66B /* APAudioPlayer.m:156 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-audioPlayerDidFinishPlaying:successfully:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 156;
+		location = HitMusic;
+		modificationTime = 266159453.811333;
+		state = 2;
+	};
+	6E54F5540FD5A6380082C66B /* APAudioPlayer.m:228 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-stop";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 228;
+		location = HitMusic;
+		modificationTime = 266159453.8113469;
+		state = 2;
+	};
+	6E54F5620FD5A66F0082C66B /* APAudioPlayer.m:156 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-audioPlayerDidFinishPlaying:successfully:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 156;
+		location = HitMusic;
+		modificationTime = 266159453.811369;
+		state = 2;
+	};
+	6E54F5640FD5A6700082C66B /* APAudioPlayer.m:156 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-audioPlayerDidFinishPlaying:successfully:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 156;
+		location = HitMusic;
+		modificationTime = 266159453.811384;
+		state = 2;
+	};
+	6E54F5890FD5A7A30082C66B /* APCustomPlayer.m:114 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093610FD3AD63005CA92B /* APCustomPlayer.m */;
+		functionName = "-fadeOutThread";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 114;
+		location = HitMusic;
+		modificationTime = 266159453.811399;
+		state = 2;
+	};
+	6E54F58B0FD5A7A50082C66B /* APCustomPlayer.m:117 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093610FD3AD63005CA92B /* APCustomPlayer.m */;
+		functionName = "-fadeOutThread";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 117;
+		location = HitMusic;
+		modificationTime = 266159453.811475;
+		state = 2;
+	};
+	6E5683100FDE31920000798D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		name = "APAudioPlayer.m: 131";
+		rLen = 0;
+		rLoc = 5591;
+		rType = 0;
+		vrLen = 1069;
+		vrLoc = 5198;
+	};
+	6E5683130FDE31920000798D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E713E3A0FD921100041B660 /* AudioFile.m */;
+		name = "AudioFile.m: 29";
+		rLen = 0;
+		rLoc = 749;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 0;
+	};
+	6E5683140FDE31920000798D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* HitMusicAppDelegate.m */;
+		name = "HitMusicAppDelegate.m: 293";
+		rLen = 0;
+		rLoc = 10852;
+		rType = 0;
+		vrLen = 2303;
+		vrLoc = 38341;
+	};
+	6E65DD6F0FD5CB6C00C0FA4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D88792C0F436BC60036B644 /* XMLReader.h */;
+		name = "XMLReader.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1328;
+		vrLoc = 1;
+	};
+	6E65DD760FD5CB6C00C0FA4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D88792C0F436BC60036B644 /* XMLReader.h */;
+		name = "XMLReader.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1328;
+		vrLoc = 1;
+	};
+	6E713CE30FD903780041B660 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879260F436BC60036B644 /* MediaItem.h */;
+		name = "MediaItem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 976;
+		vrLoc = 0;
+	};
+	6E713CF70FD906B20041B660 /* APCustomPlayer.m:113 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093610FD3AD63005CA92B /* APCustomPlayer.m */;
+		functionName = "-fadeOutThread";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 113;
+		location = HitMusic;
+		modificationTime = 266159453.811535;
+		state = 2;
+	};
+	6E713D0F0FD9081F0041B660 /* APAudioPlayer.m:429 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-initNewPlayer:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 429;
+		location = HitMusic;
+		modificationTime = 266159453.81159;
+		state = 2;
+	};
+	6E713D4E0FD90B4B0041B660 /* APCustomPlayer.m:132 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093610FD3AD63005CA92B /* APCustomPlayer.m */;
+		functionName = "-Play";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 132;
+		location = HitMusic;
+		modificationTime = 266159453.811607;
+		state = 2;
+	};
+	6E713D8E0FD90DC70041B660 /* APCustomPlayer.m:265 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093610FD3AD63005CA92B /* APCustomPlayer.m */;
+		functionName = "-setVol:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 265;
+		location = HitMusic;
+		modificationTime = 266159453.8116611;
+		state = 2;
+	};
+	6E713DBB0FD91D820041B660 /* APCustomPlayer.m:97 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093610FD3AD63005CA92B /* APCustomPlayer.m */;
+		functionName = "-fadeOut";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 97;
+		modificationTime = 266159453.811725;
+		state = 2;
+	};
+	6E713DFD0FD91EF60041B660 /* APAudioPlayer.m:25 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-initWithCrossFadeSeconds:repeatPlayList:withAudioPlayList:withFadeInOutOnSkip:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 25;
+		location = HitMusic;
+		modificationTime = 266159453.811801;
+		state = 2;
+	};
+	6E713E390FD921100041B660 /* AudioFile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {678, 648}}";
+			sepNavSelRange = "{644, 0}";
+			sepNavVisRange = "{0, 691}";
+			sepNavWindowFrame = "{{19, -3}, {627, 776}}";
+		};
+	};
+	6E713E3A0FD921100041B660 /* AudioFile.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 648}}";
+			sepNavSelRange = "{749, 0}";
+			sepNavVisRange = "{0, 879}";
+			sepNavWindowFrame = "{{644, 2}, {627, 776}}";
+		};
+	};
+	6E713E970FD92C420041B660 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E713E390FD921100041B660 /* AudioFile.h */;
+		name = "AudioFile.h: 21";
+		rLen = 0;
+		rLoc = 556;
+		rType = 0;
+		vrLen = 493;
+		vrLoc = 0;
+	};
+	6E713E980FD92C420041B660 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E713E3A0FD921100041B660 /* AudioFile.m */;
+		name = "AudioFile.m: 16";
+		rLen = 0;
+		rLoc = 834;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
+	6E731D150FD50B80008B0AD7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0DB421480EDE7AF0009E08EF /* icon.png */;
+	};
+	6E731D320FD50E56008B0AD7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 0DF672120EDE8ED30035A73A /* Entitlements.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			"get-task-allow",
+		);
+		name = "/Users/tuanvu/Library/Mail Downloads/Archive-1/HitMusicCached2Current/Entitlements.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6E86462C0FD98CA300D5A816 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* HitMusic_Prefix.pch */;
+		name = "HitMusic_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 185;
+		vrLoc = 0;
+	};
+	6E86465A0FD98DAC00D5A816 /* APAudioPlayer.m:428 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-initNewPlayer:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 428;
+		location = HitMusic;
+		modificationTime = 266159453.811818;
+		state = 2;
+	};
+	6E8646E80FD993A800D5A816 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879220F436BC60036B644 /* ClockItem.m */;
+		name = "ClockItem.m: 16";
+		rLen = 0;
+		rLoc = 697;
+		rType = 0;
+		vrLen = 1398;
+		vrLoc = 0;
+	};
+	6E8646E90FD993A800D5A816 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879290F436BC60036B644 /* PlayList.m */;
+		name = "PlayList.m: 14";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 394;
+		vrLoc = 0;
+	};
+	6E8646ED0FD993A800D5A816 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879220F436BC60036B644 /* ClockItem.m */;
+		name = "ClockItem.m: 16";
+		rLen = 0;
+		rLoc = 697;
+		rType = 0;
+		vrLen = 1398;
+		vrLoc = 0;
+	};
+	6E86473B0FD9961F00D5A816 /* HitMusicAppDelegate.m:995 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* HitMusicAppDelegate.m */;
+		functionName = "-initPlayer";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 995;
+		location = HitMusic;
+		modificationTime = 266159453.811833;
+		state = 2;
+	};
+	6E8647490FD996EB00D5A816 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* HitMusicAppDelegate.h */;
+		name = "HitMusicAppDelegate.h: 28";
+		rLen = 8;
+		rLoc = 1004;
+		rType = 0;
+		vrLen = 1749;
+		vrLoc = 360;
+	};
+	6E8647580FD997B500D5A816 /* HitMusicAppDelegate.m:957 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* HitMusicAppDelegate.m */;
+		functionName = "-initPlayer";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 957;
+		location = HitMusic;
+		modificationTime = 266159453.811922;
+		state = 2;
+	};
+	6E8647F50FD99F0B00D5A816 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D88792D0F436BC60036B644 /* XMLReader.m */;
+		name = "XMLReader.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1169;
+		vrLoc = 546;
+	};
+	6E8648180FD9A1A200D5A816 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E713E390FD921100041B660 /* AudioFile.h */;
+		name = "AudioFile.h: 24";
+		rLen = 0;
+		rLoc = 644;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 0;
+	};
+	6E8648420FD9A30700D5A816 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E713E3A0FD921100041B660 /* AudioFile.m */;
+		name = "AudioFile.m: 15";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 836;
+		vrLoc = 19;
+	};
+	6EA4117F0FD5373E009F9ED0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D0BFECA0F2491A700228849 /* MainView.m */;
+		name = "MainView.m: 75";
+		rLen = 6;
+		rLoc = 1629;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 10586;
+	};
+	6EA411840FD5373E009F9ED0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879360F436BE50036B644 /* Playback.h */;
+		name = "Playback.h: 13";
+		rLen = 0;
+		rLoc = 247;
+		rType = 0;
+		vrLen = 786;
+		vrLoc = 0;
+	};
+	6EBA26F40FD546720082E9BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 354;
+		vrLoc = 0;
+	};
+	6EC0BE1E0FDD3E6D0037E9BC /* APAudioPlayer.m:59 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-addAudioToPlayList:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 59;
+		location = HitMusic;
+		modificationTime = 266159453.812023;
+		state = 2;
+	};
+	6EC0BE5E0FDD41910037E9BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0D8879230F436BC60036B644 /* InternetFileManager.h */;
+		name = "InternetFileManager.h: 32";
+		rLen = 0;
+		rLoc = 872;
+		rType = 0;
+		vrLen = 990;
+		vrLoc = 0;
+	};
+	6EC0BE6D0FDD41D30037E9BC /* APAudioPlayer.m:156 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-audioPlayerDidFinishPlaying:successfully:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 156;
+		location = HitMusic;
+		modificationTime = 266159455.266985;
+		state = 1;
+	};
+	6EC0BE740FDD441E0037E9BC /* APAudioPlayer.m:128 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-audioPlayerDidFinishPlaying:successfully:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 128;
+		location = HitMusic;
+		modificationTime = 266159455.347024;
+		state = 1;
+	};
+	6EC0BE830FDD44DF0037E9BC /* APAudioPlayer.m:148 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-audioPlayerDidFinishPlaying:successfully:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 148;
+		location = HitMusic;
+		modificationTime = 266159455.3932889;
+		state = 1;
+	};
+	6EC0BE860FDD44E30037E9BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E4093620FD3AD63005CA92B /* APAudioPlayer.h */;
+		name = "APAudioPlayer.h: 27";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 806;
+		vrLoc = 140;
+	};
+	6EC0BE900FDD45020037E9BC /* APAudioPlayer.m:198 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-play";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 198;
+		location = HitMusic;
+		modificationTime = 266159456.762022;
+		state = 1;
+	};
+	6EC0BE920FDD45030037E9BC /* APAudioPlayer.m:201 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		functionName = "-play";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 201;
+		location = HitMusic;
+		modificationTime = 266159455.54165;
+		state = 1;
+	};
+	6EC0BEA30FDD455B0037E9BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* HitMusicAppDelegate.m */;
+		name = "HitMusicAppDelegate.m: 300";
+		rLen = 0;
+		rLoc = 11010;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 42020;
+	};
+	6EC0BEA40FDD455B0037E9BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E4093600FD3AD63005CA92B /* APCustomPlayer.h */;
+		name = "APCustomPlayer.h: 11";
+		rLen = 0;
+		rLoc = 234;
+		rType = 0;
+		vrLen = 874;
+		vrLoc = 137;
+	};
+	6EC0BEB00FDD45AE0037E9BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E4093610FD3AD63005CA92B /* APCustomPlayer.m */;
+		name = "APCustomPlayer.m: 200";
+		rLen = 0;
+		rLoc = 8679;
+		rType = 0;
+		vrLen = 1292;
+		vrLoc = 140;
+	};
+	6ED1F8D60FD516E7005A9C48 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0DB421480EDE7AF0009E08EF /* icon.png */;
+	};
+	6ED1F8D70FD516E7005A9C48 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0D04B9B90F5D9918005EA8E7 /* home.png */;
+	};
+	6ED1F8DC0FD516E7005A9C48 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0D04B9B90F5D9918005EA8E7 /* home.png */;
+	};
+	6ED1F9060FD517FF005A9C48 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/tuanvu/Library/Mail Downloads/Archive-1/HitMusicCached2Current/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6ED1F9070FD517FF005A9C48 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0D38ECB70F97520200463A79 /* mmi-logo.png */;
+	};
+	6ED1F9090FD517FF005A9C48 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0D38ECB70F97520200463A79 /* mmi-logo.png */;
+	};
+	6EE1D4B10FDD4BA40046453B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E4093630FD3AD63005CA92B /* APAudioPlayer.m */;
+		name = "APAudioPlayer.m: 148";
+		rLen = 0;
+		rLoc = 6148;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 5540;
+	};
+	6EE1D4B40FDD4BA40046453B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E713E3A0FD921100041B660 /* AudioFile.m */;
+		name = "AudioFile.m: 29";
+		rLen = 0;
+		rLoc = 749;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 0;
+	};
+	6EE1D4B50FDD4BA40046453B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* HitMusicAppDelegate.m */;
+		name = "HitMusicAppDelegate.m: 293";
+		rLen = 0;
+		rLoc = 10852;
+		rType = 0;
+		vrLen = 2303;
+		vrLoc = 38341;
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{55, 0}, {1171, 778}}";
+		};
+	};
+}

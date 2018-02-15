@@ -1,0 +1,85 @@
+1. Profile:
+
+-> Register new account:
+INSERT INTO Profile('IID','Name','Email','Gender','TimeID','Monday', 'Tuesday','Wednesday','Thursday','Friday','Sartuday','Sunday') VALUES ('1212','Vu Hoang Tuan', 'hoangtuanbs@yahoo.com', '1', DATE('now'), '0', '0', '0', '0', '0', '0', '0')
+
+-> Clear registration:
+DELETE * FROM Profile
+
+-> Update information:
+UPDATE Profile SET 
+       'Name'      = 'Tuan Vu',
+       'Email'     = 'hoangtuanbs@yahoo.com',           
+	  'Gender'    = '1',       
+       'TimeID'    = DATE('now'),       
+       'Monday'    = '2',       
+       'Tuesday'   = '2',       
+       'Wednesday' = '2',       
+       'Thursday'  = '2',       
+       'Friday'    = '2',       
+       'Sartuday'  = '2',       
+       'Sunday'    = '2'
+
+-> To check if registered:
+
+SELECT COUNT(*) FROM Profile
+
+
+3.  Measurement:
+
+->Insert new:
+INSERT INTO Measurement('TimeID', 'Height', 'Weight', 'Breast', 'Waist', 'Rump')       
+VALUES (DATE('now'),'150.0', '90.0', '90.0', '60.0', '70.0')
+
+-> Update measurement:
+
+
+4. Description
+
+->Insert new
+INSERT INTO Description ('IID', 'Content', 'Version') VALUES
+                        ('117', 'The workout help you to improve the diameter of your muscle', '111')
+
+->Update: 
+UPDATE Description 
+   SET
+       'Content' = 'New content',
+       'Version' = '112'       
+   WHERE 
+       IID  == 117  
+
+5. Workout:
+
+-> Insert new Workout:
+INSERT INTO WorkoutDetail (
+	'IID',
+	'Name',
+	'DescriptionID',
+	'VideoFile',
+	'Calories',
+	'Time',
+	'Version', 
+	'Difficulty')
+VALUES (
+	'11', 
+	'Chest',
+	'115',
+	'',
+	'10',
+	'10',
+	'1','1')
+
+6. -> 
+
+
+
+
+
+
+
+
+
+
+
+
+

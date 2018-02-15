@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WorkoutMenu</key>
+	<dict>
+		<key>DoneTitle</key>
+		<string>Done</string>
+		<key>WorkOutMenu</key>
+		<string>Work out</string>
+	</dict>
+	<key>RootMenu</key>
+	<dict>
+		<key>TrainingTabMenu</key>
+		<dict>
+			<key>Value</key>
+			<string>Training</string>
+		</dict>
+		<key>TrainingMenu</key>
+		<dict>
+			<key>Value</key>
+			<string>myTrainer</string>
+		</dict>
+	</dict>
+	<key>MainMenu</key>
+	<dict>
+		<key>Weight</key>
+		<string>Measurement</string>
+		<key>RegisterTrainingMenuItem</key>
+		<string>Register new Training</string>
+		<key>CreateTrainingMenuItem</key>
+		<string>Create training program</string>
+		<key>WorkOutMenuItem</key>
+		<string>Workout program</string>
+		<key>DietMenuItem</key>
+		<string>Diet plan</string>
+		<key>ConsultTrainerMenuItem</key>
+		<string>Consult trainer</string>
+		<key>FAQMenuItem</key>
+		<string>FAQ</string>
+	</dict>
+	<key>Rows</key>
+	<array>
+		<string></string>
+		<dict>
+			<key>Title</key>
+			<string>Hay ve day ben anh</string>
+			<key>Children</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>No need to say good bye</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>This is amzing</string>
+			<key>Children</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>It is amazing?</string>
+					<key>Children</key>
+					<array>
+						<dict>
+							<key>Title</key>
+							<string>Yes it is</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Funny stuffs</string>
+			<key>Children</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Is that funny?</string>
+					<key>Children</key>
+					<array>
+						<dict>
+							<key>Title</key>
+							<string>No it is not</string>
+							<key>Children</key>
+							<array>
+								<dict>
+									<key>Title</key>
+									<string>It is funny !!!</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Dont cry</string>
+			<key>Children</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Why?</string>
+					<key>Children</key>
+					<array>
+						<dict>
+							<key>Title</key>
+							<string>Crying is bad!!!</string>
+							<key>Children</key>
+							<array>
+								<dict>
+									<key>Title</key>
+									<string>Thank you</string>
+									<key>Children</key>
+									<array>
+										<dict>
+											<key>Title</key>
+											<string>Screen J</string>
+										</dict>
+									</array>
+								</dict>
+							</array>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

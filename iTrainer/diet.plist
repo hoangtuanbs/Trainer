@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Diet losing fat for men</string>
+		<key>Plan</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Breakfast</string>
+				<key>Menu</key>
+				<array>
+					<string>3 eggs</string>
+					<string>Onion and pepper</string>
+					<string>2oz (55g) of stripped cheese</string>
+					<string>1 medium apple</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Food 2</string>
+				<key>Menu</key>
+				<array>
+					<string>4oz(110g) Turkey breast</string>
+					<string>2oz (55g) avocado or 2oz nuts</string>
+					<string>Carrots and cereal or broccoli</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Food 3</string>
+				<key>Menu</key>
+				<array>
+					<string>4oz (110g) chicken breast</string>
+					<string>1/2 cup of integral rice</string>
+					<string>Mixed vegetable (no corn)</string>
+					<string>1/2 apple</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Food 4(one hour before workout)</string>
+				<key>Menu</key>
+				<array>
+					<string>1 apple</string>
+					<string>12oz (340g) milk</string>
+					<string>Cinnamon</string>
+					<string>1oz (25g) peanuts without salt</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Food 5(dinner or after workout)</string>
+				<key>Menu</key>
+				<array>
+					<string>5oz salmon</string>
+					<string>2 cans of organic tomatto source without sodium</string>
+					<string>1 spoon virgin olive oil</string>
+					<string>Brocoli with green pepper</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Food 6(optional)</string>
+				<key>Menu</key>
+				<array>
+					<string>12 almonds or 2 spoons of cottage cheese</string>
+					<string>1/2 medium apple</string>
+					<string>Multivitamin and Omega 3</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Diet losing fat for women</string>
+		<key>Plan</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Breakfast</string>
+				<key>Menu</key>
+				<array>
+					<string>2 eggs</string>
+					<string>Onion and pepper</string>
+					<string>1oz (25g) of stripped cheese</string>
+					<string>1 medium apple</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Food 2</string>
+				<key>Menu</key>
+				<array>
+					<string>2oz (55g) chicken breast</string>
+					<string>1oz (25g) avocado or 1oz nuts</string>
+					<string>Carrots and cereal or broccoli</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Food 3</string>
+				<key>Menu</key>
+				<array>
+					<string>3oz (85g) chicken breast</string>
+					<string>1/2 cup of integral rice</string>
+					<string>Mixed vegetable (no corn)</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Food 4(one hour before workout)</string>
+				<key>Menu</key>
+				<array>
+					<string>1/2 apple</string>
+					<string>8oz (225g) milk</string>
+					<string>Cinnamon</string>
+					<string>1oz (25g) peanuts without salt</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Food 5(dinner or after workout)</string>
+				<key>Menu</key>
+				<array>
+					<string>3oz (85g) salmon</string>
+					<string>2 cans of organic tomatto source without sodium</string>
+					<string>1 spoon virgin olive oil and brocoli with green pepper</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Food 6(optional)</string>
+				<key>Menu</key>
+				<array>
+					<string>12 almonds</string>
+					<string>1/2 medium apple</string>
+					<string>2 spoons of cottage cheese</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Diet for gaining muscle mass for men</string>
+		<key>Plan</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Breakfast</string>
+				<key>Menu</key>
+				<array>
+					<string>4 eggs</string>
+					<string>2 cups of milk</string>
+					<string>1 cup of cereal with less than 4g sugar </string>
+					<string>2 bananas</string>
+					<string>1 teaspoon of olive oil or 3g of omega-3 fish oil</string>
+					<string>4oz (110g) of stripped cheese</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Snack (after 3-4 hours)</string>
+				<key>Menu</key>
+				<array>
+					<string>21g protein powder (1-2 scoops), preferably casein</string>
+					<string>2 cups of low fat milk (2%)</string>
+					<string>1 cup of cherries or strawberries</string>
+					<string>2/3 oat meal</string>
+					<string>1g Omega-3 fish oil</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Lunch</string>
+				<key>Menu</key>
+				<array>
+					<string>12oz (350g) beef</string>
+					<string>1oz cheese (no fat-low fat)</string>
+					<string>1/4 cup onion</string>
+					<string>2 leafs of Roman lettuce</string>
+					<string>3 slices of tomatto</string>
+					<string>1 cup of grapes or strawberries</string>
+					<string>3 slices of integral bread</string>
+					<string>30 nuts, almods or peanuts</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>1 hours after workout</string>
+				<key>Menu</key>
+				<array>
+					<string>35g protein powder, can be casein or whey</string>
+					<string>2 1/3 cups of fruit juice</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Dinner (high nutrient and antioxidants)</string>
+				<key>Menu</key>
+				<array>
+					<string>9oz (250g) chicken breast (no skin)</string>
+					<string>2 cups of mushrooms</string>
+					<string>1 1/2 cups of grapes or cherries</string>
+					<string>1 1/2 cups of rice</string>
+					<string>1 2/3 teaspoon of olive oil</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Diet for gaining muscle mass for women</string>
+		<key>Plan</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Breakfast</string>
+				<key>Menu</key>
+				<array>
+					<string>2 eggs</string>
+					<string>1 cups of milk</string>
+					<string>1 cup of cereal with less than 4g sugar </string>
+					<string>1 bananas</string>
+					<string>1 teaspoon of olive oil or 3g of omega-3 fish oil</string>
+					<string>2oz (55g) of stripped cheese</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Snack (after 3-4 hours)</string>
+				<key>Menu</key>
+				<array>
+					<string>12g protein powder (1-2 scoops), preferably casein</string>
+					<string>1 cups of low fat milk (2%)</string>
+					<string>1 cup of cherries or strawberries</string>
+					<string>1/3 oat meal</string>
+					<string>1g Omega-3 fish oil</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Lunch</string>
+				<key>Menu</key>
+				<array>
+					<string>6oz (170g) beef</string>
+					<string>1oz(25g) cheese (no fat-low fat)</string>
+					<string>1/4 cup onion</string>
+					<string>1 leaf of Roman lettuce</string>
+					<string>2 slices of tomatto</string>
+					<string>1/2 cup of grapes or strawberries</string>
+					<string>1 1/2 slices of integral bread</string>
+					<string>15 nuts, almods or peanuts</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>1 hours after workout</string>
+				<key>Menu</key>
+				<array>
+					<string>17g protein powder, can be casein or whey</string>
+					<string>1 cup of fruit juice</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Dinner (high nutrient and antioxidants)</string>
+				<key>Menu</key>
+				<array>
+					<string>4.5oz (125g) chicken breast (no skin)</string>
+					<string>1 cups of mushrooms</string>
+					<string>1/2 cup of grapes or cherries</string>
+					<string>1 cup of rice</string>
+					<string>1 teaspoon of olive oil</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,245 @@
+#import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import "MainView.h"
+#import "HitMusicAppDelegate.h"
+#import "InternetFileManager.h"
+
+void interruptionListenerCallback (
+								   void	*inUserData,
+								   UInt32	interruptionState
+) {
+	// This callback, being outside the implementation block, needs a reference 
+	//	to the AudioViewController object
+	MainView *mainView = (MainView *) inUserData;
+	
+	if (interruptionState == kAudioSessionBeginInterruption) {
+		
+		NSLog (@"Interrupted. Stopping playback.");
+		
+		if (mainView.audioPlayer) {
+			// if currently playing, pause
+			[mainView pausePlayback];
+			mainView.interruptedOnPlayback = YES;
+		}
+		
+	} else if ((interruptionState == kAudioSessionEndInterruption) && mainView.interruptedOnPlayback) {
+		// if the interruption was removed, and the app had been playing, resume playback
+		[mainView resumePlayback];
+		mainView.interruptedOnPlayback = NO;
+	}
+}
+
+
+@implementation MainView
+@synthesize songDirectory;
+@synthesize myFileManager;
+@synthesize interruptedOnPlayback;
+@synthesize audioPlayer;
+
+-(void)awakeFromNib {
+	[self addSubview:radioInterface];
+	NSArray *filePaths =	NSSearchPathForDirectoriesInDomains (
+																 NSDocumentDirectory, 
+																 NSUserDomainMask,
+																 YES
+																 ); 
+	self.songDirectory = [[filePaths objectAtIndex: 0] stringByAppendingString:@"/"];
+	InternetFileManager	*fm = [[InternetFileManager alloc] initWithPath:songDirectory withUrl:@"http://cyan.wavem.com/skipmix/"];
+	self.myFileManager = fm;
+	[fm release];
+	
+	// initialize the audio session object for this application,
+	//		registering the callback that Audio Session Services will invoke 
+	//		when there's an interruption
+	AudioSessionInitialize (
+							NULL,
+							NULL,
+							interruptionListenerCallback,
+							self
+							);
+}
+
+- (void) pausePlayback {
+	
+	if (self.audioPlayer) {
+		
+		NSLog (@"Pausing playback on interruption.");
+		[self.audioPlayer pause];
+	}
+	
+}
+
+- (void) resumePlayback {
+	NSLog (@"Resuming playback on end of interruption.");
+	
+	// before resuming playback, set the audio session
+	// category and activate it
+	UInt32 sessionCategory = kAudioSessionCategory_MediaPlayback;
+	AudioSessionSetProperty (
+							 kAudioSessionProperty_AudioCategory,
+							 sizeof (sessionCategory),
+							 &sessionCategory
+							 );
+	AudioSessionSetActive (true);
+	
+[self.audioPlayer resume];
+}
+
+- (void) updateUserInterfaceOnAudioQueueStateChange: (AudioQueueObject *) inQueue {
+	
+	NSAutoreleasePool *uiUpdatePool = [[NSAutoreleasePool alloc] init];
+	
+	NSLog (@"updateUserInterfaceOnAudioQueueStateChange just called.");
+	
+	// the audio queue (playback or record) just started
+	if ([inQueue isRunning]) {
+		
+	
+		// playback just started
+		if (inQueue == self.audioPlayer) {
+			
+			NSLog (@"playback just started.");
+		
+		}
+		// the audio queue (playback or record) just stopped
+	} else {
+		
+		// playback just stopped
+		if (inQueue == self.audioPlayer) {
+			
+			[audioPlayer release];
+			audioPlayer = nil;
+		}
+	}
+	
+	[uiUpdatePool drain];
+}
+
+- (IBAction)backToRadioClicked {
+	[UIView beginAnimations:nil context:NULL];
+	[UIView setAnimationDuration:0.5];
+	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self cache:YES];
+	[infoInterface removeFromSuperview];
+	[self addSubview:radioInterface];
+	[UIView commitAnimations];
+}
+
+- (IBAction)binItClicked {
+   
+	[self DisplayAlert:@"Bin It Clicked"];
+}
+
+- (IBAction)debugClicked {
+	[UIView beginAnimations:nil context:NULL];
+	[UIView setAnimationDuration:0.5];
+	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self cache:YES];
+	[infoInterface removeFromSuperview];
+	[self addSubview:debugInterface];
+	[UIView commitAnimations];
+}
+
+- (IBAction)exitClicked {
+	NSString* fileName = @"car54.wav";
+	if ([myFileManager downLoadFile:fileName saveWithName:fileName]) {
+		[self DisplayAlert:@"File was succesfully downloaded"];
+	} else {
+		[self DisplayAlert:@"Downloaded failed"];
+	}
+}
+
+- (IBAction)fowardClicked {
+	[self DisplayAlert:@"Forward Clicked"];
+}
+
+- (IBAction)infoClicked {
+	[UIView beginAnimations:nil context:NULL];
+	[UIView setAnimationDuration:0.5];
+	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self cache:YES];
+	[radioInterface removeFromSuperview];
+	[self addSubview:infoInterface];
+	[UIView commitAnimations];
+}
+
+- (IBAction)loveItClicked {
+	[self DisplayAlert:self.songDirectory];
+
+
+}
+
+- (IBAction)playClicked {
+	
+	// if not playing, start playing
+	if (self.audioPlayer == nil) {
+		NSString* fileName = @"car54.wav";
+	NSString* pathPlusFile = [songDirectory stringByAppendingString:fileName];
+	NSLog (@"Playing file :%@",pathPlusFile);
+	
+	CFStringRef fileString = (CFStringRef) pathPlusFile;
+	
+	// create the file URL that identifies the file that the recording audio queue object records into
+	CFURLRef fileURL =	CFURLCreateWithFileSystemPath (
+													   NULL,
+													   fileString,
+													   kCFURLPOSIXPathStyle,
+													   false
+													   );
+		NSLog (@"Player is null, creating one:");
+		
+		// before instantiating the playback audio queue object, 
+		//	set the audio session category
+		UInt32 sessionCategory = kAudioSessionCategory_MediaPlayback;
+		AudioSessionSetProperty (
+								 kAudioSessionProperty_AudioCategory,
+								 sizeof (sessionCategory),
+								 &sessionCategory
+								 );
+		
+		AudioPlayer *thePlayer = [[AudioPlayer alloc] initWithURL:(CFURLRef *)fileURL];
+		NSLog (@"Created player with new song:");
+		
+		if (thePlayer) {
+			NSLog (@"Player created successfully:");
+			self.audioPlayer = thePlayer;
+			[thePlayer release];								// decrements the retain count for the thePlayer object
+			CFRelease(fileURL);
+			[self.audioPlayer setNotificationDelegate: self];	// sets up the playback object to receive property change notifications from the playback audio queue object
+			
+			// activate the audio session immmediately before playback starts
+			AudioSessionSetActive (true);
+			NSLog (@"sending play message to play object.");
+			[self.audioPlayer play];
+			NSLog (@"Sent play Message to player:");
+		}
+		
+		// else if playing, stop playing
+	} else if (self.audioPlayer) {
+		
+		NSLog (@"User tapped Stop to stop playing.");
+		[self.audioPlayer setAudioPlayerShouldStopImmediately: YES];
+		NSLog (@"Calling AudioQueueStop from controller object.");
+		[self.audioPlayer stop];
+		
+		// now that playback has stopped, deactivate the audio session
+		AudioSessionSetActive (false);
+	}  
+	
+	
+	
+	//if ([myFileManager downLoadFile:fileName saveWithName:fileName]) {
+//		[self DisplayAlert:@"File was succesfully downloaded"];
+//	} else {
+//		[self DisplayAlert:@"Downloaded failed"];
+//	}
+}
+
+- (void)DisplayAlert: (NSString*)msg {
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Button clicked" message:msg delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:@"OK",nil];
+	[alert show];
+	[alert release];
+}
+
+- (void) dealloc {
+		[super dealloc];
+}
+
+@end

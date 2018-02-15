@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iTrainerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iTrainerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28C3AD8A0F43EF2300507BA6 /* iTrainer.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28C3AD890F43EF2300507BA6 /* iTrainer.xcdatamodel */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		6E03E3EA1047C13700BF5E02 /* iTrainer-stat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E03E3E91047C13700BF5E02 /* iTrainer-stat.png */; };
+		6E051BA0104526B5008776F8 /* ChangeDietPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E051B9E104526B5008776F8 /* ChangeDietPlan.m */; };
+		6E051BA1104526B5008776F8 /* ChangeDietPlan.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E051B9F104526B5008776F8 /* ChangeDietPlan.xib */; };
+		6E051E4C104558D3008776F8 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E051E4B104558D3008776F8 /* checkmark.png */; };
+		6E286FE810395C2A0033080F /* workout-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E286FE710395C2A0033080F /* workout-on.png */; };
+		6E28700710396B5D0033080F /* popupMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E28700610396B5D0033080F /* popupMenu.png */; };
+		6E458AAD10465EA100B59BDF /* database.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 6E458AAC10465EA100B59BDF /* database.sqlite */; };
+		6E458AD81046618B00B59BDF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E458AD61046618B00B59BDF /* Localizable.strings */; };
+		6E466A141030502900B86794 /* backgroung2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E466A131030502900B86794 /* backgroung2.png */; };
+		6E471F0C1047B74600FFD679 /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E471F0B1047B74600FFD679 /* iPhone.png */; };
+		6E471F331047B99300FFD679 /* AboutPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E471F311047B99300FFD679 /* AboutPage.m */; };
+		6E471F341047B99300FFD679 /* AboutPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E471F321047B99300FFD679 /* AboutPage.xib */; };
+		6E48F0D51053059400C94794 /* WorkoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E48F0D31053059400C94794 /* WorkoutView.m */; };
+		6E48F0D61053059400C94794 /* WorkoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E48F0D41053059400C94794 /* WorkoutView.xib */; };
+		6E4A49730FCBE18A003406F8 /* TrainingMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4A49710FCBE18A003406F8 /* TrainingMenuViewController.m */; };
+		6E4A49740FCBE18A003406F8 /* TrainingMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E4A49720FCBE18A003406F8 /* TrainingMenuView.xib */; };
+		6E4BB83A103D6B2B008F80EF /* daybk-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BB839103D6B2B008F80EF /* daybk-white.png */; };
+		6E4BB83C103D6B36008F80EF /* daybtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BB83B103D6B36008F80EF /* daybtn.png */; };
+		6E4F1B720FDCFDE7002860F5 /* InternetConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F1B710FDCFDE7002860F5 /* InternetConnector.m */; };
+		6E4F822F102200F800D949C2 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4F822B102200F800D949C2 /* red.png */; };
+		6E4F8230102200F800D949C2 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4F822C102200F800D949C2 /* green.png */; };
+		6E4F8231102200F800D949C2 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4F822D102200F800D949C2 /* blue.png */; };
+		6E4F8232102200F800D949C2 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4F822E102200F800D949C2 /* yellow.png */; };
+		6E513BEE10393C870087479B /* cell-bk-header.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E513BEC10393C870087479B /* cell-bk-header.png */; };
+		6E513BEF10393C870087479B /* cell-bk.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E513BED10393C870087479B /* cell-bk.png */; };
+		6E513C0910393E140087479B /* next-button-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E513C0810393E140087479B /* next-button-normal.png */; };
+		6E52186B103D556800C7BE00 /* stats-bg-header.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E52186A103D556800C7BE00 /* stats-bg-header.png */; };
+		6E524CB810219FFB008E2659 /* DayProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E524CB710219FFB008E2659 /* DayProgress.m */; };
+		6E52AE0010303A8100FB3A64 /* button-theme.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E52ADFF10303A8100FB3A64 /* button-theme.png */; };
+		6E53845010341C17005B8467 /* stats-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E53844F10341C17005B8467 /* stats-bg.png */; };
+		6E548D5D103E80E0009263FA /* more-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E548D5C103E80E0009263FA /* more-background.png */; };
+		6E548D9A103E99DD009263FA /* registerbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E548D99103E99DD009263FA /* registerbackground.png */; };
+		6E559CFC1022F0AF0086513C /* MoreMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E559CFA1022F0AF0086513C /* MoreMenu.m */; };
+		6E559CFD1022F0AF0086513C /* MoreMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E559CFB1022F0AF0086513C /* MoreMenu.xib */; };
+		6E584F270FDCAEF900F9C5D6 /* UserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E584F260FDCAEF900F9C5D6 /* UserProfile.m */; };
+		6E595280102862D6005E8083 /* Piechart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E59527F102862D6005E8083 /* Piechart.m */; };
+		6E5B558B1042B35C0037F140 /* AnimatedGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5B55891042B35C0037F140 /* AnimatedGif.m */; };
+		6E5D22A810559E91006B100B /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D22A610559E91006B100B /* checkmark.png */; };
+		6E5D22A910559E91006B100B /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D22A710559E91006B100B /* close.png */; };
+		6E60004F10357C6E00FF20ED /* checkmark-non.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E60004C10357C6E00FF20ED /* checkmark-non.png */; };
+		6E6000781035844500FF20ED /* checkmark-steel-part.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6000751035844500FF20ED /* checkmark-steel-part.png */; };
+		6E6000791035844500FF20ED /* checkmark-steel.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6000761035844500FF20ED /* checkmark-steel.png */; };
+		6E60007A1035844500FF20ED /* checkmark-steel-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6000771035844500FF20ED /* checkmark-steel-off.png */; };
+		6E6000BC1035915B00FF20ED /* bkground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6000BB1035915B00FF20ED /* bkground.png */; };
+		6E60FB630FC92AFA007E5C8E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60FB610FC92AFA007E5C8E /* MainViewController.m */; };
+		6E60FB640FC92AFA007E5C8E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E60FB620FC92AFA007E5C8E /* MainViewController.xib */; };
+		6E60FB7E0FC92BEE007E5C8E /* MainMenuNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60FB7D0FC92BEE007E5C8E /* MainMenuNavigationController.m */; };
+		6E60FBBA0FC930E6007E5C8E /* WorkOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60FBB80FC930E6007E5C8E /* WorkOutViewController.m */; };
+		6E60FBBE0FC930F8007E5C8E /* WorkOutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60FBBD0FC930F8007E5C8E /* WorkOutTableViewController.m */; };
+		6E60FC1D0FC94152007E5C8E /* lang-en.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E60FC1C0FC94152007E5C8E /* lang-en.plist */; };
+		6E60FEE010353C3E00FF20ED /* diet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E60FEDF10353C3E00FF20ED /* diet.plist */; };
+		6E60FFBF10355BBE00FF20ED /* DietPlan.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E60FFBD10355BBE00FF20ED /* DietPlan.xib */; };
+		6E60FFC010355BBE00FF20ED /* DietPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60FFBE10355BBE00FF20ED /* DietPlan.m */; };
+		6E61BC8E102ADA6F0052B7C6 /* ViewHolderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E61BC8C102ADA6F0052B7C6 /* ViewHolderController.m */; };
+		6E61BC8F102ADA6F0052B7C6 /* ViewHolderController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E61BC8D102ADA6F0052B7C6 /* ViewHolderController.xib */; };
+		6E61BCD4102AE1210052B7C6 /* PiechartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E61BCD2102AE1210052B7C6 /* PiechartViewController.m */; };
+		6E61BCD5102AE1210052B7C6 /* PiechartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E61BCD3102AE1210052B7C6 /* PiechartViewController.xib */; };
+		6E64C77F1001D5F0003CF8EF /* GifDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E64C77C1001D5F0003CF8EF /* GifDecoder.m */; };
+		6E64C7801001D5F0003CF8EF /* GifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E64C77E1001D5F0003CF8EF /* GifHeader.m */; };
+		6E64EDF70FE396F300228463 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E64EDF60FE396F300228463 /* close.png */; };
+		6E65A9120FDB53DC00E0F513 /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E65A9110FDB53DC00E0F513 /* RegisterView.xib */; };
+		6E67FE120FE0DB91009EA792 /* ImageHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E67FE110FE0DB91009EA792 /* ImageHandle.m */; };
+		6E70D5690FE8D47E00F51C1B /* TransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E70D5680FE8D47E00F51C1B /* TransitionView.m */; };
+		6E746067100342CD00655B20 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E746066100342CD00655B20 /* Entitlements.plist */; };
+		6E75ABBC0FF7E4B1001BACC0 /* Series.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E75ABBB0FF7E4B1001BACC0 /* Series.m */; };
+		6E7834650FCA6CBF0043FA83 /* WorkOutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E7834640FCA6CBF0043FA83 /* WorkOutTableViewCell.xib */; };
+		6E7834680FCA6CE40043FA83 /* WorkOutTableViewCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7834670FCA6CE40043FA83 /* WorkOutTableViewCellController.m */; };
+		6E7834F40FCA7A6E0043FA83 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7834F20FCA7A6E0043FA83 /* RegisterViewController.m */; };
+		6E7836130FCA92EA0043FA83 /* FAQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7836110FCA92EA0043FA83 /* FAQViewController.m */; };
+		6E7836140FCA92EA0043FA83 /* FAQViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E7836120FCA92EA0043FA83 /* FAQViewController.xib */; };
+		6E7836180FCA95080043FA83 /* FAQTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7836170FCA95080043FA83 /* FAQTableViewController.m */; };
+		6E7836860FCAA42C0043FA83 /* StatisticMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7836840FCAA42C0043FA83 /* StatisticMenuController.m */; };
+		6E7836870FCAA42C0043FA83 /* StatisticMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E7836850FCAA42C0043FA83 /* StatisticMenu.xib */; };
+		6E7836B30FCAAB5C0043FA83 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7836B10FCAAB5C0043FA83 /* PickerViewController.m */; };
+		6E7836B40FCAAB5C0043FA83 /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E7836B20FCAAB5C0043FA83 /* PickerView.xib */; };
+		6E7837490FCAB17B0043FA83 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7837480FCAB17B0043FA83 /* QuartzCore.framework */; };
+		6E7E85E80FDBE30200FB27B7 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7E85E70FDBE30100FB27B7 /* DataSource.m */; };
+		6E7E85EA0FDBE35200FB27B7 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E85E90FDBE35200FB27B7 /* libsqlite3.0.dylib */; };
+		6E7E85EF0FDBE80400FB27B7 /* WorkoutDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7E85EE0FDBE80400FB27B7 /* WorkoutDetail.m */; };
+		6E8787AA1039440200334F43 /* back-button-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8787A91039440200334F43 /* back-button-normal.png */; };
+		6E927B9410427DE6002C456C /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E927B9210427DE6002C456C /* LoadingViewController.m */; };
+		6E927B9510427DE6002C456C /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E927B9310427DE6002C456C /* LoadingViewController.xib */; };
+		6EAD091A103422FA00CC2DBD /* button-bk.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EAD0919103422FA00CC2DBD /* button-bk.png */; };
+		6EAD091C1034235200CC2DBD /* button-next.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EAD091B1034235200CC2DBD /* button-next.png */; };
+		6EAD09291034260600CC2DBD /* cell-seperator.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EAD09281034260600CC2DBD /* cell-seperator.png */; };
+		6EAD3D171059662E00D52962 /* small-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EAD3D161059662E00D52962 /* small-icon.png */; };
+		6EBEA7C510396F3E008F0060 /* diet-plan-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEA7C310396F3E008F0060 /* diet-plan-on.png */; };
+		6EBEA7CB1039701F008F0060 /* diet-plan-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEA7CA1039701F008F0060 /* diet-plan-normal.png */; };
+		6EBEA7D61039727E008F0060 /* consult-trainer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEA7D41039727E008F0060 /* consult-trainer.png */; };
+		6EBEA7D71039727E008F0060 /* consult-trainer-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEA7D51039727E008F0060 /* consult-trainer-on.png */; };
+		6EBEA7E11039767A008F0060 /* iconbarbell.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEA7E01039767A008F0060 /* iconbarbell.png */; };
+		6EBEA7FE10397DBF008F0060 /* icon-stat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEA7FD10397DBF008F0060 /* icon-stat.png */; };
+		6EDA5C3F0FEBA03400CFCA49 /* WorkoutDetailV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDA5C3D0FEBA03400CFCA49 /* WorkoutDetailV2.m */; };
+		6EDA5C400FEBA03400CFCA49 /* WorkoutDetailV2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDA5C3E0FEBA03400CFCA49 /* WorkoutDetailV2.xib */; };
+		6EDA5E3C0FEBBB3700CFCA49 /* DetailCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDA5E3B0FEBBB3700CFCA49 /* DetailCellView.m */; };
+		6EDA5E3E0FEBBB4F00CFCA49 /* DetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDA5E3D0FEBBB4F00CFCA49 /* DetailCell.xib */; };
+		6EDBF7D710395A8F00866BFC /* workout-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EDBF7D610395A8F00866BFC /* workout-normal.png */; };
+		6EF81E761047FF470007D59C /* close-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF81E741047FF470007D59C /* close-button.png */; };
+		6EF81E771047FF470007D59C /* ok-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF81E751047FF470007D59C /* ok-button.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iTrainerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTrainerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iTrainerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTrainerAppDelegate.m; sourceTree = "<group>"; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* iTrainer.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = iTrainer.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iTrainer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTrainer_Prefix.pch; sourceTree = "<group>"; };
+		6E03E3E91047C13700BF5E02 /* iTrainer-stat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTrainer-stat.png"; sourceTree = "<group>"; };
+		6E051B9D104526B5008776F8 /* ChangeDietPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeDietPlan.h; sourceTree = "<group>"; };
+		6E051B9E104526B5008776F8 /* ChangeDietPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeDietPlan.m; sourceTree = "<group>"; };
+		6E051B9F104526B5008776F8 /* ChangeDietPlan.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangeDietPlan.xib; sourceTree = "<group>"; };
+		6E051E4B104558D3008776F8 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		6E286FE710395C2A0033080F /* workout-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "workout-on.png"; sourceTree = "<group>"; };
+		6E28700610396B5D0033080F /* popupMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popupMenu.png; sourceTree = "<group>"; };
+		6E458AAC10465EA100B59BDF /* database.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.sqlite; sourceTree = "<group>"; };
+		6E458AD71046618B00B59BDF /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E458AD9104661B200B59BDF /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E466A131030502900B86794 /* backgroung2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroung2.png; sourceTree = "<group>"; };
+		6E471F0B1047B74600FFD679 /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
+		6E471F301047B99300FFD679 /* AboutPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutPage.h; sourceTree = "<group>"; };
+		6E471F311047B99300FFD679 /* AboutPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutPage.m; sourceTree = "<group>"; };
+		6E471F321047B99300FFD679 /* AboutPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutPage.xib; sourceTree = "<group>"; };
+		6E4731C010597847004839DB /* myTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E48F0D21053059400C94794 /* WorkoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutView.h; sourceTree = "<group>"; };
+		6E48F0D31053059400C94794 /* WorkoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutView.m; sourceTree = "<group>"; };
+		6E48F0D41053059400C94794 /* WorkoutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkoutView.xib; sourceTree = "<group>"; };
+		6E4A49700FCBE18A003406F8 /* TrainingMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrainingMenuViewController.h; path = NewMenu/TrainingMenuViewController.h; sourceTree = "<group>"; };
+		6E4A49710FCBE18A003406F8 /* TrainingMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainingMenuViewController.m; path = NewMenu/TrainingMenuViewController.m; sourceTree = "<group>"; };
+		6E4A49720FCBE18A003406F8 /* TrainingMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TrainingMenuView.xib; path = NewMenu/TrainingMenuView.xib; sourceTree = "<group>"; };
+		6E4BB839103D6B2B008F80EF /* daybk-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daybk-white.png"; sourceTree = "<group>"; };
+		6E4BB83B103D6B36008F80EF /* daybtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daybtn.png; sourceTree = "<group>"; };
+		6E4F1B700FDCFDE7002860F5 /* InternetConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetConnector.h; sourceTree = "<group>"; };
+		6E4F1B710FDCFDE7002860F5 /* InternetConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetConnector.m; sourceTree = "<group>"; };
+		6E4F822B102200F800D949C2 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		6E4F822C102200F800D949C2 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		6E4F822D102200F800D949C2 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		6E4F822E102200F800D949C2 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		6E513BEC10393C870087479B /* cell-bk-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell-bk-header.png"; sourceTree = "<group>"; };
+		6E513BED10393C870087479B /* cell-bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell-bk.png"; sourceTree = "<group>"; };
+		6E513C0810393E140087479B /* next-button-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next-button-normal.png"; sourceTree = "<group>"; };
+		6E52186A103D556800C7BE00 /* stats-bg-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stats-bg-header.png"; sourceTree = "<group>"; };
+		6E524CB610219FFB008E2659 /* DayProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayProgress.h; sourceTree = "<group>"; };
+		6E524CB710219FFB008E2659 /* DayProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayProgress.m; sourceTree = "<group>"; };
+		6E52ADFF10303A8100FB3A64 /* button-theme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-theme.png"; sourceTree = "<group>"; };
+		6E53844F10341C17005B8467 /* stats-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stats-bg.png"; sourceTree = "<group>"; };
+		6E548D5C103E80E0009263FA /* more-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more-background.png"; sourceTree = "<group>"; };
+		6E548D99103E99DD009263FA /* registerbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registerbackground.png; sourceTree = "<group>"; };
+		6E559CF91022F0AF0086513C /* MoreMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreMenu.h; sourceTree = "<group>"; };
+		6E559CFA1022F0AF0086513C /* MoreMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreMenu.m; sourceTree = "<group>"; };
+		6E559CFB1022F0AF0086513C /* MoreMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreMenu.xib; sourceTree = "<group>"; };
+		6E584F250FDCAEF900F9C5D6 /* UserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfile.h; sourceTree = "<group>"; };
+		6E584F260FDCAEF900F9C5D6 /* UserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfile.m; sourceTree = "<group>"; };
+		6E59527E102862D6005E8083 /* Piechart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piechart.h; sourceTree = "<group>"; };
+		6E59527F102862D6005E8083 /* Piechart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piechart.m; sourceTree = "<group>"; };
+		6E5B55891042B35C0037F140 /* AnimatedGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedGif.m; sourceTree = "<group>"; };
+		6E5B558A1042B35C0037F140 /* AnimatedGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedGif.h; sourceTree = "<group>"; };
+		6E5D22A610559E91006B100B /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		6E5D22A710559E91006B100B /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		6E60004C10357C6E00FF20ED /* checkmark-non.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-non.png"; sourceTree = "<group>"; };
+		6E6000751035844500FF20ED /* checkmark-steel-part.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-steel-part.png"; sourceTree = "<group>"; };
+		6E6000761035844500FF20ED /* checkmark-steel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-steel.png"; sourceTree = "<group>"; };
+		6E6000771035844500FF20ED /* checkmark-steel-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-steel-off.png"; sourceTree = "<group>"; };
+		6E6000BB1035915B00FF20ED /* bkground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkground.png; sourceTree = "<group>"; };
+		6E60FB600FC92AFA007E5C8E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = MainMenu/MainViewController.h; sourceTree = "<group>"; };
+		6E60FB610FC92AFA007E5C8E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = MainMenu/MainViewController.m; sourceTree = "<group>"; };
+		6E60FB620FC92AFA007E5C8E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = MainMenu/MainViewController.xib; sourceTree = "<group>"; };
+		6E60FB7C0FC92BEE007E5C8E /* MainMenuNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuNavigationController.h; path = MainMenu/MainMenuNavigationController.h; sourceTree = "<group>"; };
+		6E60FB7D0FC92BEE007E5C8E /* MainMenuNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuNavigationController.m; path = MainMenu/MainMenuNavigationController.m; sourceTree = "<group>"; };
+		6E60FBB70FC930E6007E5C8E /* WorkOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkOutViewController.h; path = MainMenu/WorkOutMenuItem/WorkOutViewController.h; sourceTree = "<group>"; };
+		6E60FBB80FC930E6007E5C8E /* WorkOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkOutViewController.m; path = MainMenu/WorkOutMenuItem/WorkOutViewController.m; sourceTree = "<group>"; };
+		6E60FBBC0FC930F8007E5C8E /* WorkOutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkOutTableViewController.h; path = MainMenu/WorkOutMenuItem/WorkOutTableViewController.h; sourceTree = "<group>"; };
+		6E60FBBD0FC930F8007E5C8E /* WorkOutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkOutTableViewController.m; path = MainMenu/WorkOutMenuItem/WorkOutTableViewController.m; sourceTree = "<group>"; };
+		6E60FC1C0FC94152007E5C8E /* lang-en.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "lang-en.plist"; sourceTree = "<group>"; };
+		6E60FEDF10353C3E00FF20ED /* diet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = diet.plist; sourceTree = "<group>"; };
+		6E60FFBC10355BBE00FF20ED /* DietPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DietPlan.h; path = MainMenu/DietPlan.h; sourceTree = "<group>"; };
+		6E60FFBD10355BBE00FF20ED /* DietPlan.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DietPlan.xib; path = MainMenu/DietPlan.xib; sourceTree = "<group>"; };
+		6E60FFBE10355BBE00FF20ED /* DietPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DietPlan.m; path = MainMenu/DietPlan.m; sourceTree = "<group>"; };
+		6E61BC8B102ADA6F0052B7C6 /* ViewHolderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewHolderController.h; sourceTree = "<group>"; };
+		6E61BC8C102ADA6F0052B7C6 /* ViewHolderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewHolderController.m; sourceTree = "<group>"; };
+		6E61BC8D102ADA6F0052B7C6 /* ViewHolderController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewHolderController.xib; sourceTree = "<group>"; };
+		6E61BCD1102AE1210052B7C6 /* PiechartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiechartViewController.h; sourceTree = "<group>"; };
+		6E61BCD2102AE1210052B7C6 /* PiechartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiechartViewController.m; sourceTree = "<group>"; };
+		6E61BCD3102AE1210052B7C6 /* PiechartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PiechartViewController.xib; sourceTree = "<group>"; };
+		6E64C77B1001D5F0003CF8EF /* GifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifHeader.h; sourceTree = "<group>"; };
+		6E64C77C1001D5F0003CF8EF /* GifDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifDecoder.m; sourceTree = "<group>"; };
+		6E64C77D1001D5F0003CF8EF /* GifDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifDecoder.h; sourceTree = "<group>"; };
+		6E64C77E1001D5F0003CF8EF /* GifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifHeader.m; sourceTree = "<group>"; };
+		6E64EDF60FE396F300228463 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		6E65A9110FDB53DC00E0F513 /* RegisterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RegisterView.xib; path = RegisterView/RegisterView.xib; sourceTree = "<group>"; };
+		6E67FE100FE0DB91009EA792 /* ImageHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHandle.h; sourceTree = "<group>"; };
+		6E67FE110FE0DB91009EA792 /* ImageHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageHandle.m; sourceTree = "<group>"; };
+		6E70D5650FE8D47700F51C1B /* TransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionView.h; sourceTree = "<group>"; };
+		6E70D5680FE8D47E00F51C1B /* TransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionView.m; sourceTree = "<group>"; };
+		6E746066100342CD00655B20 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		6E75ABBA0FF7E4B1001BACC0 /* Series.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Series.h; sourceTree = "<group>"; };
+		6E75ABBB0FF7E4B1001BACC0 /* Series.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Series.m; sourceTree = "<group>"; };
+		6E7834640FCA6CBF0043FA83 /* WorkOutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkOutTableViewCell.xib; sourceTree = "<group>"; };
+		6E7834660FCA6CE40043FA83 /* WorkOutTableViewCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkOutTableViewCellController.h; sourceTree = "<group>"; };
+		6E7834670FCA6CE40043FA83 /* WorkOutTableViewCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkOutTableViewCellController.m; sourceTree = "<group>"; };
+		6E7834F10FCA7A6E0043FA83 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = RegisterView/RegisterViewController.h; sourceTree = "<group>"; };
+		6E7834F20FCA7A6E0043FA83 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = RegisterView/RegisterViewController.m; sourceTree = "<group>"; };
+		6E7836100FCA92EA0043FA83 /* FAQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAQViewController.h; path = FAQ/FAQViewController.h; sourceTree = "<group>"; };
+		6E7836110FCA92EA0043FA83 /* FAQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAQViewController.m; path = FAQ/FAQViewController.m; sourceTree = "<group>"; };
+		6E7836120FCA92EA0043FA83 /* FAQViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FAQViewController.xib; path = FAQ/FAQViewController.xib; sourceTree = "<group>"; };
+		6E7836160FCA95080043FA83 /* FAQTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAQTableViewController.h; path = FAQ/FAQTableViewController.h; sourceTree = "<group>"; };
+		6E7836170FCA95080043FA83 /* FAQTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAQTableViewController.m; path = FAQ/FAQTableViewController.m; sourceTree = "<group>"; };
+		6E7836830FCAA42C0043FA83 /* StatisticMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticMenuController.h; sourceTree = "<group>"; };
+		6E7836840FCAA42C0043FA83 /* StatisticMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticMenuController.m; sourceTree = "<group>"; };
+		6E7836850FCAA42C0043FA83 /* StatisticMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticMenu.xib; sourceTree = "<group>"; };
+		6E7836B00FCAAB5C0043FA83 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerViewController.h; path = RegisterView/PickerViewController.h; sourceTree = "<group>"; };
+		6E7836B10FCAAB5C0043FA83 /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerViewController.m; path = RegisterView/PickerViewController.m; sourceTree = "<group>"; };
+		6E7836B20FCAAB5C0043FA83 /* PickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PickerView.xib; path = RegisterView/PickerView.xib; sourceTree = "<group>"; };
+		6E7837480FCAB17B0043FA83 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6E7E85E60FDBE30100FB27B7 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataSource.h; path = ../DataSource.h; sourceTree = "<group>"; };
+		6E7E85E70FDBE30100FB27B7 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataSource.m; path = ../DataSource.m; sourceTree = "<group>"; };
+		6E7E85E90FDBE35200FB27B7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsqlite3.0.dylib; sourceTree = "<group>"; };
+		6E7E85ED0FDBE80400FB27B7 /* WorkoutDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutDetail.h; sourceTree = "<group>"; };
+		6E7E85EE0FDBE80400FB27B7 /* WorkoutDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutDetail.m; sourceTree = "<group>"; };
+		6E8787A91039440200334F43 /* back-button-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button-normal.png"; sourceTree = "<group>"; };
+		6E927B9110427DE6002C456C /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		6E927B9210427DE6002C456C /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		6E927B9310427DE6002C456C /* LoadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
+		6EAD0919103422FA00CC2DBD /* button-bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-bk.png"; sourceTree = "<group>"; };
+		6EAD091B1034235200CC2DBD /* button-next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-next.png"; sourceTree = "<group>"; };
+		6EAD09281034260600CC2DBD /* cell-seperator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell-seperator.png"; sourceTree = "<group>"; };
+		6EAD3D161059662E00D52962 /* small-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-icon.png"; sourceTree = "<group>"; };
+		6EBEA7C310396F3E008F0060 /* diet-plan-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diet-plan-on.png"; sourceTree = "<group>"; };
+		6EBEA7CA1039701F008F0060 /* diet-plan-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diet-plan-normal.png"; sourceTree = "<group>"; };
+		6EBEA7D41039727E008F0060 /* consult-trainer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "consult-trainer.png"; sourceTree = "<group>"; };
+		6EBEA7D51039727E008F0060 /* consult-trainer-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "consult-trainer-on.png"; sourceTree = "<group>"; };
+		6EBEA7E01039767A008F0060 /* iconbarbell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconbarbell.png; sourceTree = "<group>"; };
+		6EBEA7FD10397DBF008F0060 /* icon-stat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-stat.png"; sourceTree = "<group>"; };
+		6EDA5C3C0FEBA03400CFCA49 /* WorkoutDetailV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkoutDetailV2.h; path = MainMenu/WorkOutMenuItem/WorkOutDetail/WorkoutDetailV2.h; sourceTree = "<group>"; };
+		6EDA5C3D0FEBA03400CFCA49 /* WorkoutDetailV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkoutDetailV2.m; path = MainMenu/WorkOutMenuItem/WorkOutDetail/WorkoutDetailV2.m; sourceTree = "<group>"; };
+		6EDA5C3E0FEBA03400CFCA49 /* WorkoutDetailV2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WorkoutDetailV2.xib; path = MainMenu/WorkOutMenuItem/WorkOutDetail/WorkoutDetailV2.xib; sourceTree = "<group>"; };
+		6EDA5E3A0FEBBB3700CFCA49 /* DetailCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailCellView.h; path = MainMenu/WorkOutMenuItem/WorkOutDetail/DetailCellView.h; sourceTree = "<group>"; };
+		6EDA5E3B0FEBBB3700CFCA49 /* DetailCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailCellView.m; path = MainMenu/WorkOutMenuItem/WorkOutDetail/DetailCellView.m; sourceTree = "<group>"; };
+		6EDA5E3D0FEBBB4F00CFCA49 /* DetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCell.xib; sourceTree = "<group>"; };
+		6EDBF7D610395A8F00866BFC /* workout-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "workout-normal.png"; sourceTree = "<group>"; };
+		6EF81E741047FF470007D59C /* close-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-button.png"; sourceTree = "<group>"; };
+		6EF81E751047FF470007D59C /* ok-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ok-button.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iTrainer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iTrainer-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				6E7837490FCAB17B0043FA83 /* QuartzCore.framework in Frameworks */,
+				6E7E85EA0FDBE35200FB27B7 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6E6FD3050FFCB33300B64564 /* Image handle */,
+				6E4F1B6F0FDCFDCE002860F5 /* Internet */,
+				6E7E85EC0FDBE7E400FB27B7 /* DataModel */,
+				6E7E85EB0FDBE7D800FB27B7 /* Menu */,
+				1D3623240D0F684500981E51 /* iTrainerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iTrainerAppDelegate.m */,
+				6E927B9110427DE6002C456C /* LoadingViewController.h */,
+				6E927B9210427DE6002C456C /* LoadingViewController.m */,
+				6E927B9310427DE6002C456C /* LoadingViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E4731C010597847004839DB /* myTrainer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				6E746066100342CD00655B20 /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iTrainer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E6000751035844500FF20ED /* checkmark-steel-part.png */,
+				6EDBF7D610395A8F00866BFC /* workout-normal.png */,
+				6E6000761035844500FF20ED /* checkmark-steel.png */,
+				6E6000771035844500FF20ED /* checkmark-steel-off.png */,
+				6E53844F10341C17005B8467 /* stats-bg.png */,
+				6E60FC1C0FC94152007E5C8E /* lang-en.plist */,
+				6E5D22A610559E91006B100B /* checkmark.png */,
+				6E5D22A710559E91006B100B /* close.png */,
+				6E286FE710395C2A0033080F /* workout-on.png */,
+				6E03E3E91047C13700BF5E02 /* iTrainer-stat.png */,
+				6E4F822B102200F800D949C2 /* red.png */,
+				6EAD09281034260600CC2DBD /* cell-seperator.png */,
+				6E466A131030502900B86794 /* backgroung2.png */,
+				6E548D5C103E80E0009263FA /* more-background.png */,
+				6EBEA7FD10397DBF008F0060 /* icon-stat.png */,
+				6EBEA7CA1039701F008F0060 /* diet-plan-normal.png */,
+				6EBEA7C310396F3E008F0060 /* diet-plan-on.png */,
+				6E513C0810393E140087479B /* next-button-normal.png */,
+				6E513BEC10393C870087479B /* cell-bk-header.png */,
+				6E52186A103D556800C7BE00 /* stats-bg-header.png */,
+				6E513BED10393C870087479B /* cell-bk.png */,
+				6EF81E741047FF470007D59C /* close-button.png */,
+				6EF81E751047FF470007D59C /* ok-button.png */,
+				6E8787A91039440200334F43 /* back-button-normal.png */,
+				6E60004C10357C6E00FF20ED /* checkmark-non.png */,
+				6EBEA7D41039727E008F0060 /* consult-trainer.png */,
+				6EBEA7D51039727E008F0060 /* consult-trainer-on.png */,
+				6E28700610396B5D0033080F /* popupMenu.png */,
+				6E4F822C102200F800D949C2 /* green.png */,
+				6E548D99103E99DD009263FA /* registerbackground.png */,
+				6E051E4B104558D3008776F8 /* checkmark.png */,
+				6EAD091B1034235200CC2DBD /* button-next.png */,
+				6EAD0919103422FA00CC2DBD /* button-bk.png */,
+				6E6000BB1035915B00FF20ED /* bkground.png */,
+				6E458AD61046618B00B59BDF /* Localizable.strings */,
+				6E4BB83B103D6B36008F80EF /* daybtn.png */,
+				6E52ADFF10303A8100FB3A64 /* button-theme.png */,
+				6E458AAC10465EA100B59BDF /* database.sqlite */,
+				6E4F822D102200F800D949C2 /* blue.png */,
+				6E4BB839103D6B2B008F80EF /* daybk-white.png */,
+				6E4F822E102200F800D949C2 /* yellow.png */,
+				6E64EDF60FE396F300228463 /* close.png */,
+				6EBEA7E01039767A008F0060 /* iconbarbell.png */,
+				28C3AD890F43EF2300507BA6 /* iTrainer.xcdatamodel */,
+				6E471F0B1047B74600FFD679 /* iPhone.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* iTrainer-Info.plist */,
+				6EAD3D161059662E00D52962 /* small-icon.png */,
+				6E60FEDF10353C3E00FF20ED /* diet.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E85E90FDBE35200FB27B7 /* libsqlite3.0.dylib */,
+				6E7837480FCAB17B0043FA83 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E4A48AF0FCBC85D003406F8 /* WorkOutDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6EDA5C3C0FEBA03400CFCA49 /* WorkoutDetailV2.h */,
+				6EDA5C3D0FEBA03400CFCA49 /* WorkoutDetailV2.m */,
+				6EDA5C3E0FEBA03400CFCA49 /* WorkoutDetailV2.xib */,
+				6EDA5E3A0FEBBB3700CFCA49 /* DetailCellView.h */,
+				6EDA5E3B0FEBBB3700CFCA49 /* DetailCellView.m */,
+				6EDA5E3D0FEBBB4F00CFCA49 /* DetailCell.xib */,
+				6E48F0D21053059400C94794 /* WorkoutView.h */,
+				6E48F0D31053059400C94794 /* WorkoutView.m */,
+				6E48F0D41053059400C94794 /* WorkoutView.xib */,
+			);
+			name = WorkOutDetail;
+			sourceTree = "<group>";
+		};
+		6E4A496F0FCBE168003406F8 /* NewMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6E4A49700FCBE18A003406F8 /* TrainingMenuViewController.h */,
+				6E4A49710FCBE18A003406F8 /* TrainingMenuViewController.m */,
+				6E4A49720FCBE18A003406F8 /* TrainingMenuView.xib */,
+			);
+			name = NewMenu;
+			sourceTree = "<group>";
+		};
+		6E4F1B6F0FDCFDCE002860F5 /* Internet */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F1B700FDCFDE7002860F5 /* InternetConnector.h */,
+				6E4F1B710FDCFDE7002860F5 /* InternetConnector.m */,
+			);
+			name = Internet;
+			sourceTree = "<group>";
+		};
+		6E60FB680FC92B3B007E5C8E /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6E78360F0FCA92CE0043FA83 /* FAQ */,
+				6E7834F90FCA80170043FA83 /* RegisterMenu */,
+				6E60FBB60FC930B8007E5C8E /* WorkOutMenu */,
+				6E60FB600FC92AFA007E5C8E /* MainViewController.h */,
+				6E60FB610FC92AFA007E5C8E /* MainViewController.m */,
+				6E60FB620FC92AFA007E5C8E /* MainViewController.xib */,
+				6E60FB7C0FC92BEE007E5C8E /* MainMenuNavigationController.h */,
+				6E60FB7D0FC92BEE007E5C8E /* MainMenuNavigationController.m */,
+			);
+			name = MainMenu;
+			sourceTree = "<group>";
+		};
+		6E60FBB60FC930B8007E5C8E /* WorkOutMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6E4A48AF0FCBC85D003406F8 /* WorkOutDetail */,
+				6E60FBB70FC930E6007E5C8E /* WorkOutViewController.h */,
+				6E60FBB80FC930E6007E5C8E /* WorkOutViewController.m */,
+				6E60FFBC10355BBE00FF20ED /* DietPlan.h */,
+				6E60FFBE10355BBE00FF20ED /* DietPlan.m */,
+				6E60FFBD10355BBE00FF20ED /* DietPlan.xib */,
+				6E60FBBC0FC930F8007E5C8E /* WorkOutTableViewController.h */,
+				6E60FBBD0FC930F8007E5C8E /* WorkOutTableViewController.m */,
+				6E7834640FCA6CBF0043FA83 /* WorkOutTableViewCell.xib */,
+				6E7834660FCA6CE40043FA83 /* WorkOutTableViewCellController.h */,
+				6E7834670FCA6CE40043FA83 /* WorkOutTableViewCellController.m */,
+				6E051B9D104526B5008776F8 /* ChangeDietPlan.h */,
+				6E051B9E104526B5008776F8 /* ChangeDietPlan.m */,
+				6E051B9F104526B5008776F8 /* ChangeDietPlan.xib */,
+				6E471F301047B99300FFD679 /* AboutPage.h */,
+				6E471F311047B99300FFD679 /* AboutPage.m */,
+				6E471F321047B99300FFD679 /* AboutPage.xib */,
+			);
+			name = WorkOutMenu;
+			sourceTree = "<group>";
+		};
+		6E6FD3050FFCB33300B64564 /* Image handle */ = {
+			isa = PBXGroup;
+			children = (
+				6E64C77B1001D5F0003CF8EF /* GifHeader.h */,
+				6E64C77C1001D5F0003CF8EF /* GifDecoder.m */,
+				6E5B55891042B35C0037F140 /* AnimatedGif.m */,
+				6E5B558A1042B35C0037F140 /* AnimatedGif.h */,
+				6E64C77D1001D5F0003CF8EF /* GifDecoder.h */,
+				6E64C77E1001D5F0003CF8EF /* GifHeader.m */,
+			);
+			name = "Image handle";
+			sourceTree = "<group>";
+		};
+		6E7834F90FCA80170043FA83 /* RegisterMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6E7834F10FCA7A6E0043FA83 /* RegisterViewController.h */,
+				6E7834F20FCA7A6E0043FA83 /* RegisterViewController.m */,
+				6E65A9110FDB53DC00E0F513 /* RegisterView.xib */,
+				6E7836B00FCAAB5C0043FA83 /* PickerViewController.h */,
+				6E7836B10FCAAB5C0043FA83 /* PickerViewController.m */,
+				6E7836B20FCAAB5C0043FA83 /* PickerView.xib */,
+			);
+			name = RegisterMenu;
+			sourceTree = "<group>";
+		};
+		6E78360F0FCA92CE0043FA83 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				6E7836100FCA92EA0043FA83 /* FAQViewController.h */,
+				6E7836110FCA92EA0043FA83 /* FAQViewController.m */,
+				6E7836120FCA92EA0043FA83 /* FAQViewController.xib */,
+				6E7836160FCA95080043FA83 /* FAQTableViewController.h */,
+				6E7836170FCA95080043FA83 /* FAQTableViewController.m */,
+			);
+			name = FAQ;
+			sourceTree = "<group>";
+		};
+		6E7836820FCAA3C10043FA83 /* StatatisticMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6E7836830FCAA42C0043FA83 /* StatisticMenuController.h */,
+				6E7836840FCAA42C0043FA83 /* StatisticMenuController.m */,
+				6E7836850FCAA42C0043FA83 /* StatisticMenu.xib */,
+				6E61BC8B102ADA6F0052B7C6 /* ViewHolderController.h */,
+				6E61BC8C102ADA6F0052B7C6 /* ViewHolderController.m */,
+				6E61BC8D102ADA6F0052B7C6 /* ViewHolderController.xib */,
+			);
+			name = StatatisticMenu;
+			sourceTree = "<group>";
+		};
+		6E7E85EB0FDBE7D800FB27B7 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				6EFF72980FE2829000149BE5 /* More */,
+				6E4A496F0FCBE168003406F8 /* NewMenu */,
+				6E7836820FCAA3C10043FA83 /* StatatisticMenu */,
+				6E60FB680FC92B3B007E5C8E /* MainMenu */,
+				6E59527E102862D6005E8083 /* Piechart.h */,
+				6E59527F102862D6005E8083 /* Piechart.m */,
+				6E61BCD1102AE1210052B7C6 /* PiechartViewController.h */,
+				6E61BCD2102AE1210052B7C6 /* PiechartViewController.m */,
+				6E61BCD3102AE1210052B7C6 /* PiechartViewController.xib */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		6E7E85EC0FDBE7E400FB27B7 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E85E60FDBE30100FB27B7 /* DataSource.h */,
+				6E7E85E70FDBE30100FB27B7 /* DataSource.m */,
+				6E7E85ED0FDBE80400FB27B7 /* WorkoutDetail.h */,
+				6E7E85EE0FDBE80400FB27B7 /* WorkoutDetail.m */,
+				6E584F250FDCAEF900F9C5D6 /* UserProfile.h */,
+				6E584F260FDCAEF900F9C5D6 /* UserProfile.m */,
+				6E67FE100FE0DB91009EA792 /* ImageHandle.h */,
+				6E67FE110FE0DB91009EA792 /* ImageHandle.m */,
+				6E75ABBA0FF7E4B1001BACC0 /* Series.h */,
+				6E75ABBB0FF7E4B1001BACC0 /* Series.m */,
+				6E524CB610219FFB008E2659 /* DayProgress.h */,
+				6E524CB710219FFB008E2659 /* DayProgress.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		6EFF72980FE2829000149BE5 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				6E70D5650FE8D47700F51C1B /* TransitionView.h */,
+				6E70D5680FE8D47E00F51C1B /* TransitionView.m */,
+				6E559CF91022F0AF0086513C /* MoreMenu.h */,
+				6E559CFA1022F0AF0086513C /* MoreMenu.m */,
+				6E559CFB1022F0AF0086513C /* MoreMenu.xib */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* myTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "myTrainer" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myTrainer;
+			productName = iTrainer;
+			productReference = 6E4731C010597847004839DB /* myTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iTrainer" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				fi,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* myTrainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				6E60FB640FC92AFA007E5C8E /* MainViewController.xib in Resources */,
+				6E60FC1D0FC94152007E5C8E /* lang-en.plist in Resources */,
+				6E7834650FCA6CBF0043FA83 /* WorkOutTableViewCell.xib in Resources */,
+				6E7836140FCA92EA0043FA83 /* FAQViewController.xib in Resources */,
+				6E7836870FCAA42C0043FA83 /* StatisticMenu.xib in Resources */,
+				6E7836B40FCAAB5C0043FA83 /* PickerView.xib in Resources */,
+				6E4A49740FCBE18A003406F8 /* TrainingMenuView.xib in Resources */,
+				6E65A9120FDB53DC00E0F513 /* RegisterView.xib in Resources */,
+				6E64EDF70FE396F300228463 /* close.png in Resources */,
+				6EDA5C400FEBA03400CFCA49 /* WorkoutDetailV2.xib in Resources */,
+				6EDA5E3E0FEBBB4F00CFCA49 /* DetailCell.xib in Resources */,
+				6E746067100342CD00655B20 /* Entitlements.plist in Resources */,
+				6E4F822F102200F800D949C2 /* red.png in Resources */,
+				6E4F8230102200F800D949C2 /* green.png in Resources */,
+				6E4F8231102200F800D949C2 /* blue.png in Resources */,
+				6E4F8232102200F800D949C2 /* yellow.png in Resources */,
+				6E559CFD1022F0AF0086513C /* MoreMenu.xib in Resources */,
+				6E61BC8F102ADA6F0052B7C6 /* ViewHolderController.xib in Resources */,
+				6E61BCD5102AE1210052B7C6 /* PiechartViewController.xib in Resources */,
+				6E52AE0010303A8100FB3A64 /* button-theme.png in Resources */,
+				6E466A141030502900B86794 /* backgroung2.png in Resources */,
+				6E53845010341C17005B8467 /* stats-bg.png in Resources */,
+				6EAD091A103422FA00CC2DBD /* button-bk.png in Resources */,
+				6EAD091C1034235200CC2DBD /* button-next.png in Resources */,
+				6EAD09291034260600CC2DBD /* cell-seperator.png in Resources */,
+				6E60FEE010353C3E00FF20ED /* diet.plist in Resources */,
+				6E60FFBF10355BBE00FF20ED /* DietPlan.xib in Resources */,
+				6E60004F10357C6E00FF20ED /* checkmark-non.png in Resources */,
+				6E6000781035844500FF20ED /* checkmark-steel-part.png in Resources */,
+				6E6000791035844500FF20ED /* checkmark-steel.png in Resources */,
+				6E60007A1035844500FF20ED /* checkmark-steel-off.png in Resources */,
+				6E6000BC1035915B00FF20ED /* bkground.png in Resources */,
+				6E513BEE10393C870087479B /* cell-bk-header.png in Resources */,
+				6E513BEF10393C870087479B /* cell-bk.png in Resources */,
+				6E513C0910393E140087479B /* next-button-normal.png in Resources */,
+				6E8787AA1039440200334F43 /* back-button-normal.png in Resources */,
+				6EDBF7D710395A8F00866BFC /* workout-normal.png in Resources */,
+				6E286FE810395C2A0033080F /* workout-on.png in Resources */,
+				6E28700710396B5D0033080F /* popupMenu.png in Resources */,
+				6EBEA7C510396F3E008F0060 /* diet-plan-on.png in Resources */,
+				6EBEA7CB1039701F008F0060 /* diet-plan-normal.png in Resources */,
+				6EBEA7D61039727E008F0060 /* consult-trainer.png in Resources */,
+				6EBEA7D71039727E008F0060 /* consult-trainer-on.png in Resources */,
+				6EBEA7E11039767A008F0060 /* iconbarbell.png in Resources */,
+				6EBEA7FE10397DBF008F0060 /* icon-stat.png in Resources */,
+				6E52186B103D556800C7BE00 /* stats-bg-header.png in Resources */,
+				6E4BB83A103D6B2B008F80EF /* daybk-white.png in Resources */,
+				6E4BB83C103D6B36008F80EF /* daybtn.png in Resources */,
+				6E548D5D103E80E0009263FA /* more-background.png in Resources */,
+				6E548D9A103E99DD009263FA /* registerbackground.png in Resources */,
+				6E927B9510427DE6002C456C /* LoadingViewController.xib in Resources */,
+				6E051BA1104526B5008776F8 /* ChangeDietPlan.xib in Resources */,
+				6E051E4C104558D3008776F8 /* checkmark.png in Resources */,
+				6E458AAD10465EA100B59BDF /* database.sqlite in Resources */,
+				6E458AD81046618B00B59BDF /* Localizable.strings in Resources */,
+				6E471F0C1047B74600FFD679 /* iPhone.png in Resources */,
+				6E471F341047B99300FFD679 /* AboutPage.xib in Resources */,
+				6E03E3EA1047C13700BF5E02 /* iTrainer-stat.png in Resources */,
+				6EF81E761047FF470007D59C /* close-button.png in Resources */,
+				6EF81E771047FF470007D59C /* ok-button.png in Resources */,
+				6E48F0D61053059400C94794 /* WorkoutView.xib in Resources */,
+				6E5D22A810559E91006B100B /* checkmark.png in Resources */,
+				6E5D22A910559E91006B100B /* close.png in Resources */,
+				6EAD3D171059662E00D52962 /* small-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iTrainerAppDelegate.m in Sources */,
+				28C3AD8A0F43EF2300507BA6 /* iTrainer.xcdatamodel in Sources */,
+				6E60FB630FC92AFA007E5C8E /* MainViewController.m in Sources */,
+				6E60FB7E0FC92BEE007E5C8E /* MainMenuNavigationController.m in Sources */,
+				6E60FBBA0FC930E6007E5C8E /* WorkOutViewController.m in Sources */,
+				6E60FBBE0FC930F8007E5C8E /* WorkOutTableViewController.m in Sources */,
+				6E7834680FCA6CE40043FA83 /* WorkOutTableViewCellController.m in Sources */,
+				6E7834F40FCA7A6E0043FA83 /* RegisterViewController.m in Sources */,
+				6E7836130FCA92EA0043FA83 /* FAQViewController.m in Sources */,
+				6E7836180FCA95080043FA83 /* FAQTableViewController.m in Sources */,
+				6E7836860FCAA42C0043FA83 /* StatisticMenuController.m in Sources */,
+				6E7836B30FCAAB5C0043FA83 /* PickerViewController.m in Sources */,
+				6E4A49730FCBE18A003406F8 /* TrainingMenuViewController.m in Sources */,
+				6E7E85E80FDBE30200FB27B7 /* DataSource.m in Sources */,
+				6E7E85EF0FDBE80400FB27B7 /* WorkoutDetail.m in Sources */,
+				6E584F270FDCAEF900F9C5D6 /* UserProfile.m in Sources */,
+				6E4F1B720FDCFDE7002860F5 /* InternetConnector.m in Sources */,
+				6E67FE120FE0DB91009EA792 /* ImageHandle.m in Sources */,
+				6E70D5690FE8D47E00F51C1B /* TransitionView.m in Sources */,
+				6EDA5C3F0FEBA03400CFCA49 /* WorkoutDetailV2.m in Sources */,
+				6EDA5E3C0FEBBB3700CFCA49 /* DetailCellView.m in Sources */,
+				6E75ABBC0FF7E4B1001BACC0 /* Series.m in Sources */,
+				6E64C77F1001D5F0003CF8EF /* GifDecoder.m in Sources */,
+				6E64C7801001D5F0003CF8EF /* GifHeader.m in Sources */,
+				6E524CB810219FFB008E2659 /* DayProgress.m in Sources */,
+				6E559CFC1022F0AF0086513C /* MoreMenu.m in Sources */,
+				6E595280102862D6005E8083 /* Piechart.m in Sources */,
+				6E61BC8E102ADA6F0052B7C6 /* ViewHolderController.m in Sources */,
+				6E61BCD4102AE1210052B7C6 /* PiechartViewController.m in Sources */,
+				6E60FFC010355BBE00FF20ED /* DietPlan.m in Sources */,
+				6E927B9410427DE6002C456C /* LoadingViewController.m in Sources */,
+				6E5B558B1042B35C0037F140 /* AnimatedGif.m in Sources */,
+				6E051BA0104526B5008776F8 /* ChangeDietPlan.m in Sources */,
+				6E471F331047B99300FFD679 /* AboutPage.m in Sources */,
+				6E48F0D51053059400C94794 /* WorkoutView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E458AD61046618B00B59BDF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E458AD71046618B00B59BDF /* en */,
+				6E458AD9104661B200B59BDF /* fi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Volumes/Skiiing2/CD/ViewBased/Unknown Path/System/Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTrainer_Prefix.pch;
+				INFOPLIST_FILE = "iTrainer-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = myTrainer;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: WaveM Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: WaveM Ltd";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Volumes/Skiiing2/CD/ViewBased/Unknown Path/System/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTrainer_Prefix.pch;
+				INFOPLIST_FILE = "iTrainer-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = myTrainer;
+				PROVISIONING_PROFILE = "C75320C6-FBDF-4EAA-A197-2F147910B311";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C75320C6-FBDF-4EAA-A197-2F147910B311";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joshwa Marcalle (586NKW3679)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "29BA6843-36BC-4CFE-88C4-CFE3A48DE8A2";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: WaveM Ltd";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MODULE_NAME = "52ZKFCMA84.*";
+				PREBINDING = YES;
+				PRODUCT_NAME = myTrainer;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C75320C6-FBDF-4EAA-A197-2F147910B311";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "myTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
